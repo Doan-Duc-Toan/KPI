@@ -8,11 +8,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="{{ asset('css/layout.css') }}">
+    <link rel="stylesheet" href="{{ asset('OwlCarousel2-2.3.4/dist/assets/owl.carousel.css') }}">
+    <link rel="stylesheet" href="{{ asset('OwlCarousel2-2.3.4/dist/assets/owl.theme.default.css') }}">
     <title>KPI 28</title>
 </head>
 
 <body>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="{{ asset('OwlCarousel2-2.3.4/dist/owl.carousel.js') }}"></script>
     <div id="wrapper">
         <div id="header">
             <div id="logo">
@@ -70,7 +75,8 @@
                     </div>
                 </div>
                 <div id="logout">
-                    <a href="{{route('login')}}"><i class="fa-solid fa-right-from-bracket"></i> <span>Đăng xuất</span></a>
+                    <a href="{{ route('login') }}"><i class="fa-solid fa-right-from-bracket"></i> <span>Đăng
+                            xuất</span></a>
                 </div>
             </div>
             <div id="content">
