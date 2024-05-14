@@ -1,0 +1,187 @@
+#setting-content {
+    padding: 20px 30px;
+    box-sizing: border-box;
+    height: 100%;
+    max-height: 100%;
+}
+
+#setting-content form {
+    height: 100%;
+    width: 100%;
+}
+
+#setting-profile {
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    height: 80%;
+    max-height: 80%;
+    padding: 20px;
+}
+
+#setting-status {
+    display: flex;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #E6EFF5;
+}
+
+#setting-status .setting-status-item {
+    padding: 5px 30px;
+}
+
+#setting-status .setting-status-item span {
+    cursor: pointer;
+    color: #718EBF;
+}
+
+.setting-status-item-active span {
+    color: #1814F3 !important;
+}
+
+.setting-status-item-active {
+    border-bottom: 2px solid #1814F3;
+}
+
+
+/* ------------setting-info----------- */
+div.top-setting-info {
+    display: flex;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #E6EFF5;
+}
+
+div.top-setting-info .setting-avatar {
+    height: 144px;
+    flex-basis: 144px;
+    max-width: 144px;
+    margin-right: 20px;
+    position: relative;
+    border-radius: 50%;
+    border: 1px solid #20c580;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+div.top-setting-info .setting-avatar img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+div.top-setting-info .setting-avatar input {
+    opacity: 0;
+    position: absolute;
+    left: -1000px;
+    z-index: 1000;
+}
+
+div.top-setting-info .setting-avatar .set-avatar {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+    opacity: 0.8;
+    background-color: #9E9E9E;
+}
+
+div.top-setting-info .setting-avatar .set-avatar label {
+    color: #FFFFFF;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+div.setting-story {
+    display: flex;
+    flex-direction: column;
+    height: 144px;
+    max-height: 144px;
+    flex-basis: 80%;
+}
+
+div.setting-story label {
+    color: #232323;
+}
+
+div.setting-story textarea {
+    margin-top: 10px;
+    border: 1px solid #E6EFF5;
+    border-radius: 20px;
+    padding: 15px;
+    outline-style: none;
+    resize: none;
+    font-size: 15px;
+}
+div.setting-story textarea::placeholder{
+    font-size: 15px;
+}
+.bot-setting-info {
+    padding: 20px 30px;
+}
+
+.bot-setting-info .setting-info-input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.bot-setting-info .setting-info-input label {
+    color: #232323;
+}
+
+.bot-setting-info .setting-info-input input {
+    padding: 10px 15px;
+    border: 1px solid #E6EFF5;
+    border-radius: 10px;
+    margin-top: 10px;
+    outline-style: none;
+    color: #718EBF;
+}
+
+.setting-info-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.setting-info-nav-container {
+    background-color: #eceff1;
+    display: flex;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+
+.setting-info-nav .setting-info-nav-item span {
+    display: inline-block;
+    padding: 5px 25px;
+    color: #979DA1;
+    cursor: pointer;
+}
+
+.nav-item-active {
+    background-color: #FFFFFF;
+    color: #333333 !important;
+    border-radius: 10px;
+    box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.100);
+}
+#setting-save{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+#setting-save button{
+    padding: 15px 55px;
+    outline-style: none;
+    background-color: #1814F3;
+    color: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 600;
+}

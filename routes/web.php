@@ -22,3 +22,5 @@ Route::get('/app/{page}', [Controller::class, 'index'])->name('page');
 Route::get('/login', [UserController::class, 'login'])->name('login');
 Route::get('/register', [UserController::class, 'register'])->name('register');
 Route::get('/recover', [UserController::class, 'recover'])->name('recover');
+Route::get('/setting/status', [UserController::class, 'settingStatus'])->name('setting_status');
+Route::get('/setting/type', [UserController::class, 'settingType'])->name('setting_type');
