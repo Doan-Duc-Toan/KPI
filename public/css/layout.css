@@ -1,25 +1,29 @@
-body{
+body {
     margin: 0px;
     font-family: 'Roboto', sans-serif;
 }
-a{
+
+a {
     text-decoration: none;
 }
-#wrapper{
+
+#wrapper {
     width: 100%;
     height: 100%;
 }
 
-#header{
+#header {
     width: 100%;
     height: 100px;
-    position: fixed;
+    /* position: fixed;
     top: 0px;
     left: 0px;
-    right: 0px;
+    right: 0px; */
+    position: relative;
     display: flex;
 }
-#logo{
+
+#logo {
     flex-basis: 17%;
     max-width: 17%;
     display: flex;
@@ -29,67 +33,79 @@ a{
     box-sizing: border-box;
     border-right: 1px solid #E6EFF5;
 }
-#logo img{
+
+#logo img {
     height: 36px;
     width: auto;
     margin-right: 10px;
 }
-#logo span{
+
+#logo span {
     color: #343C6A;
-    font-weight:500;
+    font-weight: 500;
     font-size: 25px;
 }
-div#header-content{
+
+div#header-content {
     flex-basis: 83%;
     max-width: 83%;
     display: flex;
     justify-content: space-between;
 }
-div#hc-left{
+
+div#hc-left {
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     padding-left: 30px;
 }
-div#hc-left span{
+
+div#hc-left span {
     color: #343C6A;
     font-size: 28px;
     font-weight: 600;
 }
-div#hc-right{
+
+div#hc-right {
     display: flex;
     justify-content: center;
-    align-items: center;   
+    align-items: center;
 }
-div#hc-right form{
+
+div#hc-right form {
     background-color: #F5F7FA;
     border-radius: 40px;
     margin-right: 20px;
     padding: 5px 15px;
 }
-div#hc-right form input{
-     height: 40px;
-     border: none;
-     outline-style: none;
-     background-color: #F5F7FA;
-     border-top-right-radius: 40px;
-     border-bottom-right-radius: 40px;
-     font-size: 15px;
-     padding: 0px;;
+
+div#hc-right form input {
+    height: 40px;
+    border: none;
+    outline-style: none;
+    background-color: #F5F7FA;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    font-size: 15px;
+    padding: 0px;
+    ;
 
 }
-div#hc-right form input::placeholder{
+
+div#hc-right form input::placeholder {
     color: #8BA3CB;
     font-size: 15px;
 }
-div#hc-right form button{
+
+div#hc-right form button {
     background-color: #F5F7FA;
     border: none;
     font-size: 15px;
     color: #718EBF;
 }
-div.header-item{
+
+div.header-item {
     height: 50px;
     width: 50px;
     border-radius: 50%;
@@ -100,13 +116,20 @@ div.header-item{
     margin: 0px 10px;
     cursor: pointer;
 }
-div#instruct span{
-color: #718EBF;
+
+div#instruct span {
+    color: #718EBF;
 }
-div#notify span{
+
+div#notify span {
     color: #FE5C73;
+    font-size: 18px;
 }
-div#avatar{
+.notify-click-active{
+    background-color: #f8e4e7 !important;
+}
+
+div#avatar {
     height: 60px;
     width: 60px;
     display: flex;
@@ -115,7 +138,8 @@ div#avatar{
     margin-right: 30px;
     margin-left: 10px;
 }
-div#avatar img{
+
+div#avatar img {
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -123,46 +147,53 @@ div#avatar img{
 
 /* --------------------------wr-content------------------- */
 /* ---------sidebar-------------- */
-#wr-content{
-    margin-top: 100px;
+#wr-content {
+    /* margin-top: 100px; */
     width: 100%;
     height: calc(100vh - 100px);
     display: flex;
-    overflow-y: auto; 
+    overflow-y: auto;
 }
-#sidebar{
+
+#sidebar {
     flex-basis: 17%;
     max-width: 17%;
     height: 100%;
-    border-right: 1px solid  #E6EFF5;
+    border-right: 1px solid #E6EFF5;
     padding-bottom: 70px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     box-sizing: border-box;
 }
-#sidebar #nav{
+
+#sidebar #nav {
     width: 100%;
 }
-#sidebar .nav-item{
+
+#sidebar .nav-item {
     padding: 20px 50px;
     position: relative;
-  
-    
+
+
 }
-#sidebar .nav-item a{
+
+#sidebar .nav-item a {
     display: flex;
     color: #B1B1B1;
     font-size: 18px;
     transition: all ease-in-out 0.1s;
 }
-#sidebar .nav-item a span.nav-icon{
+
+#sidebar .nav-item a span.nav-icon {
     margin-right: 20px;
 }
-#sidebar .nav-item a:hover{
+
+#sidebar .nav-item a:hover {
     color: #2D60FF;
 }
-.nav-active::before{
+
+.nav-active::before {
     content: "";
     position: absolute;
     left: 0px;
@@ -174,15 +205,18 @@ div#avatar img{
     border-bottom-right-radius: 10px;
     background-color: #2D60FF;
 }
-.nav-active a{
+
+.nav-active a {
     color: #2D60FF !important;
 }
-#logout{
+
+#logout {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-#logout a{
+
+#logout a {
     color: #FFFFFF;
     font-weight: 500;
     font-size: 18px;
@@ -194,10 +228,81 @@ div#avatar img{
 
 
 /* ---------------content---------------- */
-#content{
+#content {
     flex-basis: 83%;
     max-width: 83%;
     height: 100%;
     max-height: 100%;
     background-color: #F5F7FA;
+}
+
+
+/* --------------notice board----------- */
+div#notice-board {
+    position: absolute;
+    top: 90px;
+    right: 100px;
+    z-index: 100;
+    width: 440px;
+    max-height: 70vh;
+    min-height: 40vh;
+    background-color: #FFFFFF;
+    box-shadow:1px 1px 3px 2px rgba(0, 0, 0, 0.100);
+    border-radius: 10px;
+    padding-bottom: 20px ;
+    overflow-y: scroll;
+    display: none ;
+}
+/* div#notice-board::-webkit-scrollbar {
+    display: none;
+  } */
+  
+#top-notice-board {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    align-items: center;
+
+}
+
+#title-notice-board span {
+    color: #1A1F36;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#notice-mark {
+    color: #1A1F36;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#list-notice-board .notice-board-item {
+    display: flex;
+    padding: 10px 15px;
+    border-bottom: 1px solid #E6EFF5;
+}
+.notice-board-item:last-child{
+    border-bottom: none !important;
+}
+.notice-board-icon {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    padding-right: 10px;
+    color: #bebec0;
+}
+.notice-board-content{
+   display: flex;
+   flex-direction: column; 
+}
+.notice-board-content span:first-child {
+    color: #1a1f36;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.notice-board-content span:last-child{
+    color: #a4abb7;
+    font-size: 12px;
 }

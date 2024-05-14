@@ -17,6 +17,7 @@
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"
         integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="{{asset('js/layout.js')}}"></script>
     <script src="{{ asset('OwlCarousel2-2.3.4/dist/owl.carousel.js') }}"></script>
     <div id="wrapper">
         <div id="header">
@@ -37,6 +38,118 @@
                     </div>
                     <div id="notify" class="header-item"><span><i class="fa-regular fa-bell"></i></span></div>
                     <div id="avatar"><img src="{{ asset('img/images.jpg') }}" alt=""></div>
+                </div>
+            </div>
+            <div id="notice-board">
+                <div id="top-notice-board">
+                    <div id="title-notice-board">
+                        <span>Thông báo</span>
+                    </div>
+                    <dv id="notice-mark">
+                        <span>Đánh dấu tất cả là đã đọc <i class="fa-regular fa-circle-check"></i></span>
+                    </dv>
+                </div>
+                <div id="list-notice-board">
+                    <div class="notice-board-item">
+                        <div class="notice-board-icon">
+                            <span><i class="fa-brands fa-spotify"></i></span>
+                        </div>
+                        <div class="notice-board-content">
+                            <span>Công việc “Thi cuối kỳ” đã hoàn thành. </span>
+                            <span>Thứ 7 19:12 AM</span>
+                        </div>
+                    </div>
+                    <div class="notice-board-item">
+                        <div class="notice-board-icon">
+                            <span><i class="fa-brands fa-spotify"></i></span>
+                        </div>
+                        <div class="notice-board-content">
+                            <span>Thông báo công việc chưa hoàn thành “Bài tập lớn UIUX”</span>
+                            <span>Thứ 2 tuần trước 9:42 AM</span>
+                        </div>
+                    </div>
+                    <div class="notice-board-item">
+                        <div class="notice-board-icon">
+                            <span><i class="fa-brands fa-spotify"></i></span>
+                        </div>
+                        <div class="notice-board-content">
+                            <span>Thông báo cập nhật phiên bản 4.23</span>
+                            <span>Thứ 5 tuần trước 11:02 AM</span>
+                        </div>
+                    </div>
+                    <div class="notice-board-item">
+                        <div class="notice-board-icon">
+                            <span><i class="fa-brands fa-spotify"></i></span>
+                        </div>
+                        <div class="notice-board-content">
+                            <span>Thông báo công việc chưa hoàn thành “Xem anime”</span>
+                            <span>11/04/2024 9:42 AM</span>
+                        </div>
+                    </div>
+                    <div class="notice-board-item">
+                        <div class="notice-board-icon">
+                            <span><i class="fa-brands fa-spotify"></i></span>
+                        </div>
+                        <div class="notice-board-content">
+                            <span>Thông báo công việc chưa hoàn thành “Đi ngủ”</span>
+                            <span>07/04/2023 11:55 PM</span>
+                        </div>
+                    </div>
+                    <div class="notice-board-item">
+                        <div class="notice-board-icon">
+                            <span><i class="fa-brands fa-spotify"></i></span>
+                        </div>
+                        <div class="notice-board-content">
+                            <span>Thông báo cập nhật phiên bản 3.1.1</span>
+                            <span>03/04/2024 07:00 AM</span>
+                        </div>
+                    </div>
+                    <div class="notice-board-item">
+                        <div class="notice-board-icon">
+                            <span><i class="fa-brands fa-spotify"></i></span>
+                        </div>
+                        <div class="notice-board-content">
+                            <span>Công việc "Đi tắm" đã hoàn thành</span>
+                            <span>22/03/2024 07:44 PM</span>
+                        </div>
+                    </div>
+                    <div class="notice-board-item">
+                        <div class="notice-board-icon">
+                            <span><i class="fa-brands fa-spotify"></i></span>
+                        </div>
+                        <div class="notice-board-content">
+                            <span>Thông báo công việc chưa hoàn thành “Bài tập lớn UIUX”</span>
+                            <span>Thứ 2 tuần trước 9:42 AM</span>
+                        </div>
+                    </div>
+                    <div class="notice-board-item">
+                        <div class="notice-board-icon">
+                            <span><i class="fa-brands fa-spotify"></i></span>
+                        </div>
+                        <div class="notice-board-content">
+                            <span>Thông báo công việc chưa hoàn thành “Bài tập lớn UIUX”</span>
+                            <span>Thứ 2 tuần trước 9:42 AM</span>
+                        </div>
+                    </div>
+                    <div class="notice-board-item">
+                        <div class="notice-board-icon">
+                            <span><i class="fa-brands fa-spotify"></i></span>
+                        </div>
+                        <div class="notice-board-content">
+                            <span>Thông báo công việc chưa hoàn thành “Bài tập lớn UIUX”</span>
+                            <span>Thứ 2 tuần trước 9:42 AM</span>
+                        </div>
+                    </div>
+                    <div class="notice-board-item">
+                        <div class="notice-board-icon">
+                            <span><i class="fa-brands fa-spotify"></i></span>
+                        </div>
+                        <div class="notice-board-content">
+                            <span>Thông báo công việc chưa hoàn thành “Bài tập lớn UIUX”</span>
+                            <span>Thứ 2 tuần trước 9:42 AM</span>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
