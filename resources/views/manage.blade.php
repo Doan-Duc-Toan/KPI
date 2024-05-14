@@ -163,16 +163,16 @@
                                 <div class="name-kpi"><span>Ngủ</span></div>
                             </td>
                             <td>
-                                <div>7h</div>
+                                <div><span>7h</span></div>
                             </td>
                             <td>
-                                <div>Ngày</div>
+                                <div><span>Ngày</span></div>
                             </td>
                             <td>
-                                <div>70%</div>
+                                <div><span>70%</span></div>
                             </td>
                             <td>
-                                <div>Không</div>
+                                <div><span>Không</span></div>
                             </td>
                             <td>
                                 <div class="text-medium">Trung bình</div>
@@ -183,22 +183,22 @@
                         </tr>
                         <tr>
                             <td>
-                                <div class="kpi-info"><i class="fa-solid fa-circle-info"></i> </div>
+                                <div class="kpi-info"><i class="fa-solid fa-circle-info"></i></div>
                             </td>
                             <td>
-                                <div class="name-kpi"><span>AI developments</span></div>
+                                <div class="name-kpi"><span>Ngủ</span></div>
                             </td>
                             <td>
-                                <div>150h</div>
+                                <div><span>7h</span></div>
                             </td>
                             <td>
-                                <div>Tháng</div>
+                                <div><span>Ngày</span></div>
                             </td>
                             <td>
-                                <div>60%</div>
+                                <div><span>70%</span></div>
                             </td>
                             <td>
-                                <div>25/08/2024</div>
+                                <div><span>Không</span></div>
                             </td>
                             <td>
                                 <div class="text-high">Cao</div>
@@ -212,23 +212,22 @@
                                 <div class="kpi-info"><i class="fa-solid fa-circle-info"></i></div>
                             </td>
                             <td>
-                                <div class="name-kpi"> <span>Khóa Python 101</span>
-                                </div>
+                                <div class="name-kpi"><span>Ngủ</span></div>
                             </td>
                             <td>
-                                <div>Hoàn thành</div>
+                                <div><span>7h</span></div>
                             </td>
                             <td>
-                                <div>Tháng</div>
+                                <div><span>Ngày</span></div>
                             </td>
                             <td>
-                                <div>100%</div>
+                                <div><span>70%</span></div>
                             </td>
                             <td>
-                                <div>12/05/2024</div>
+                                <div><span>Không</span></div>
                             </td>
                             <td>
-                                <div class="text-medium">Trung bình</div>
+                                <div class="text-low">Thấp</div>
                             </td>
                             <td>
                                 <div class="delete-kpi"><i class="fa-solid fa-trash-can"></i></div>
@@ -239,23 +238,22 @@
                                 <div class="kpi-info"><i class="fa-solid fa-circle-info"></i></div>
                             </td>
                             <td>
-                                <div class="name-kpi"><span>Học tiếng Nhật</span>
-                                </div>
+                                <div class="name-kpi"><span>Ngủ</span></div>
                             </td>
                             <td>
-                                <div>15h</div>
+                                <div><span>7h</span></div>
                             </td>
                             <td>
-                                <div>Tuần</div>
+                                <div><span>Ngày</span></div>
                             </td>
                             <td>
-                                <div>75%</div>
+                                <div><span>70%</span></div>
                             </td>
                             <td>
-                                <div>12/05/2024</div>
+                                <div><span>Không</span></div>
                             </td>
                             <td>
-                                <div class="text-low">Thấp</div>
+                                <div class="text-medium">Trung bình</div>
                             </td>
                             <td>
                                 <div class="delete-kpi"><i class="fa-solid fa-trash-can"></i></div>

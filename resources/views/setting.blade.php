@@ -5,7 +5,7 @@
         <form action="">
             <div id="setting-profile">
                 <div id="setting-status">
-                    <div id="profile" class="setting-status-item setting-status-item-active">
+                    <div id="profile_user" class="setting-status-item setting-status-item-active">
                         <span>Hồ sơ</span>
                     </div>
                     <div id="notify" class="setting-status-item">
@@ -16,7 +16,7 @@
                     </div>
                 </div>
                 <div id="setting-info">
-                    @include('profile')
+                    @include('profile_user')
                 </div>
             </div>
             <div id="setting-save">

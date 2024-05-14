@@ -17,7 +17,7 @@
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"
         integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="{{asset('js/layout.js')}}"></script>
+    <script src="{{ asset('js/layout.js') }}"></script>
     <script src="{{ asset('OwlCarousel2-2.3.4/dist/owl.carousel.js') }}"></script>
     <div id="wrapper">
         <div id="header">
@@ -36,7 +36,8 @@
                     </form>
                     <div id="instruct" class="header-item"><span><i class="fa-solid fa-chalkboard-user"></i></span>
                     </div>
-                    <div id="notify" class="header-item"><span><i class="fa-regular fa-bell"></i></span></div>
+                    <div id="dark-mode" class="header-item"><span><i class="fa-regular fa-lightbulb"></i></span></div>
+                    <div id="notice" class="header-item"><span><i class="fa-regular fa-bell"></i></span></div>
                     <div id="avatar"><img src="{{ asset('img/images.jpg') }}" alt=""></div>
                 </div>
             </div>
@@ -58,6 +59,7 @@
                             <span>Công việc “Thi cuối kỳ” đã hoàn thành. </span>
                             <span>Thứ 7 19:12 AM</span>
                         </div>
+                        <div id="icon-unread"></div>
                     </div>
                     <div class="notice-board-item">
                         <div class="notice-board-icon">
@@ -67,6 +69,8 @@
                             <span>Thông báo công việc chưa hoàn thành “Bài tập lớn UIUX”</span>
                             <span>Thứ 2 tuần trước 9:42 AM</span>
                         </div>
+                        <div id="icon-unread"></div>
+
                     </div>
                     <div class="notice-board-item">
                         <div class="notice-board-icon">
@@ -85,6 +89,8 @@
                             <span>Thông báo công việc chưa hoàn thành “Xem anime”</span>
                             <span>11/04/2024 9:42 AM</span>
                         </div>
+                        <div id="icon-unread"></div>
+
                     </div>
                     <div class="notice-board-item">
                         <div class="notice-board-icon">
