@@ -24,3 +24,4 @@ Route::get('/register', [UserController::class, 'register'])->name('register');
 Route::get('/recover', [UserController::class, 'recover'])->name('recover');
 Route::get('/setting/status', [UserController::class, 'settingStatus'])->name('setting_status');
 Route::get('/setting/type', [UserController::class, 'settingType'])->name('setting_type');
+Route::get('/list_kpi/status', [UserController::class, 'kpiStatus'])->name('kpi_status');

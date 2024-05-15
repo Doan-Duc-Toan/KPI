@@ -115,6 +115,7 @@
     margin: 10px 0px;
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 
 #kpi-status {
@@ -129,12 +130,13 @@
     align-items: center;
 }
 
-#kpi-status .kpi-status-item a {
+#kpi-status .kpi-status-item span {
     color: #718EBF;
     transition: all ease-in 0.2s;
+    cursor: pointer;
 }
 
-#kpi-status .kpi-status-item a:hover {
+#kpi-status .kpi-status-item span:hover {
     color: #1814F3;
 }
 
@@ -199,12 +201,43 @@
     color: #718EBF;
 }
 
+
+.filter-option {
+    position: absolute;
+    right: 20px;
+    top: 110%;
+    padding: 15px;
+    background-color: #FFFFFF;
+    box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.100);
+    border-radius: 10px;
+    width: 150px;
+    display: none;
+}
+
+.filter-option .filter-option-item {
+    width: 100%;
+    margin: 10px 0px;
+}
+
+.filter-option-item select {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #E6EFF5;
+    border-radius: 10px;
+    outline-style: none;
+    color: #8BA3CB;
+}
+
+
+
+
 #kpi-table {
     width: 100%;
     background-color: #FFFFFF;
     padding: 15px;
     box-sizing: border-box;
     border-radius: 15px;
+
 }
 
 #kpi-table table {
@@ -214,9 +247,11 @@
 #kpi-table table thead tr {
     color: #718EBF;
 }
-#kpi-table table thead tr th{
+
+#kpi-table table thead tr th {
     padding-bottom: 10px;
 }
+
 #kpi-table table thead tr th i {
     cursor: pointer;
 }
@@ -227,36 +262,43 @@
     align-items: center;
     color: #232323;
 }
-#kpi-table table tbody tr td{
+
+#kpi-table table tbody tr td {
     padding: 15px 0px;
     border-top: 1px solid #E6EFF5;
 
 }
 
-#kpi-table table tbody td div.kpi-info i{
+#kpi-table table tbody td div.kpi-info i {
     color: #718EBF;
     font-size: 22px;
     cursor: pointer;
 }
-.text-medium{
+
+.text-medium {
     color: #434EB3 !important;
 }
-.text-low{
+
+.text-low {
     color: #16DBAA !important;
 }
-.text-high{
+
+.text-high {
     color: #FE5C73 !important;
 }
-#kpi-table table tbody td div.delete-kpi{
+
+#kpi-table table tbody td div.delete-kpi {
     color: #FE5C73 !important;
     cursor: pointer;
 }
-#bot-list-kpi{
+
+#bot-list-kpi {
     margin-top: 10px;
     display: flex;
     justify-content: space-between;
 }
-#bot-list-kpi .add-kpi{
+
+#bot-list-kpi .add-kpi {
     color: #343C6A;
     font-size: 17px;
     font-weight: 600;
@@ -266,27 +308,32 @@
     align-items: center;
     transition: all ease-in-out 0.2s;
 }
-#bot-list-kpi .add-kpi:hover{
+
+#bot-list-kpi .add-kpi:hover {
     color: #7988ec;
 }
-.paginate{
-   display: flex;
+
+.paginate {
+    display: flex;
 }
-.paginate .move{
-    
+
+.paginate .move {
+
     margin: 0px 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
 }
-.paginate .move a{
+
+.paginate .move a {
     color: #1814F3;
     font-size: 15px;
     font-weight: 600;
 }
-.paginate .page{
-   
+
+.paginate .page {
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -295,15 +342,18 @@
     border-radius: 10px;
     cursor: pointer;
 }
-.paginate .page a{
+
+.paginate .page a {
     color: #1814F3;
     font-size: 15px;
     font-weight: 600;
 }
-.page-active{
+
+.page-active {
     background-color: #1814F3;
 }
-.page-active a{
+
+.page-active a {
     color: #FFFFFF !important;
 
 }

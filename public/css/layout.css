@@ -190,6 +190,9 @@ div#avatar img {
     background-color: #242427 !important;
 
 }
+.dark-mode-form div{
+    background-color: #242427 !important;
+}
 .dark-mode-form span{
     color: #FFFFFF !important;
 }
@@ -224,6 +227,18 @@ div#avatar img {
 }
 .border-20{
     border-radius: 20px !important;
+}
+
+.table-dark-mode{
+    background-color: #181818 !important;
+
+}
+.table-dark-mode span{
+    color: #FFFFFF;
+}
+.table-dark-mode table{
+    background-color: #181818 !important;
+    
 }
 /* ---------------------end-dark-mode------------ */
 

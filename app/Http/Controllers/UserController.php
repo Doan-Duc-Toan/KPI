@@ -32,4 +32,10 @@ class UserController extends Controller
         //    return response()->json(['id' => $id]);
         return response()->json(['html' => view($id)->render()]);
     }
+    function kpiStatus(Request $request)
+    {
+        $id = $request->get('id');
+        //    return response()->json(['id' => $id]);
+        return response()->json(['html' => view($id)->render()]);
+    }
 }
