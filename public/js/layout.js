@@ -22,6 +22,7 @@ $(document).ready(function () {
         $('.kpi-day-item-bg span').addClass("color-light");
 
         $('#kpi-table').addClass("table-dark-mode");
+        $('.filter-option').addClass("bg-dark-mode-sub");
 
         
         $('#setting-profile').addClass("dark-mode-form");
@@ -60,8 +61,9 @@ $(document).ready(function () {
         $("#setting-save button").toggleClass("border-light");
 
         $("#setting-content form").toggleClass("border-20");
+        $('.filter-option').toggleClass("bg-dark-mode-sub");
 
-        
+
         // Lưu trạng thái vào localStorage dựa trên trạng thái của header
         if ($('#header').hasClass('bg-dark-mode-sub')) {
             localStorage.setItem('darkMode', 'enabled');
