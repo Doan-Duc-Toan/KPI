@@ -29,6 +29,10 @@ $(document).ready(function () {
         $('form').addClass('dark-mode-form');
         $("#setting-save button").addClass("border-light");
         $("#setting-content form").addClass("border-20");
+        $('.overview-item').addClass("bg-dark-mode-sub");
+        $('.overview-item span').addClass("color-light");
+        $('#statistical-kpi-table').addClass("table-dark-mode");
+        $('.kpi-hint-item').addClass("bg-dark-mode-sub");
 
     }
 
@@ -62,6 +66,13 @@ $(document).ready(function () {
 
         $("#setting-content form").toggleClass("border-20");
         $('.filter-option').toggleClass("bg-dark-mode-sub");
+
+
+        $('.overview-item').toggleClass("bg-dark-mode-sub");
+
+        $('.overview-item span').toggleClass("color-light");
+        $('#statistical-kpi-table').toggleClass("table-dark-mode");
+        $('.kpi-hint-item').toggleClass("bg-dark-mode-sub");
 
 
         // Lưu trạng thái vào localStorage dựa trên trạng thái của header
