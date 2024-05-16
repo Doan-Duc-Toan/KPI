@@ -4,7 +4,7 @@ $(document).ready(function () {
         initialView: 'dayGridMonth',
         editable: true, // Cho phép kéo thả và chỉnh sửa sự kiện
         selectable: true, // Cho phép chọn khoảng thời gian trên lịch
-        dayMaxEventRows: 2,
+        dayMaxEventRows: 3,
         events: [
             // Danh sách các sự kiện
             { title: 'Thi cuối kỳ giải tích 3', date: '2024-05-20' },

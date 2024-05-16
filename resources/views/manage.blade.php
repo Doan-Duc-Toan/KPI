@@ -1,12 +1,12 @@
 @extends('layout')
 @section('content')
     <link rel="stylesheet" href="{{ asset('css/manage.css') }}">
-    <div id="manage-content">
+    <div id="manage-content" data-intro='Tiếp theo, chúng ta sẽ đi vào chi tiết phần quản lý KPI.' data-step ="12">
         <div id="kpi-day">
             <span class="kpi-day-title">KPI trong ngày</span>
-            <div class="list-kpi-day">
+            <div class="list-kpi-day" data-intro='Danh sách các KPI quan trọng trong ngày sẽ được hiển thị tại đây.' data-step ="13">
                 <div class="owl-carousel">
-                    <div class="kpi-day-item">
+                    <div class="kpi-day-item" data-intro='Chi tiết KPI gồm có tên, độ quan trọng, và biểu đồ thống kế tiến độ. Tất nhiên bạn có thể cập nhật chúng!' data-step ="14">
                         <div class="kpi-day-item-bg">
                             <div class="top-kpi-day-item">
                                 <div class="kpi-day-info">
@@ -119,10 +119,10 @@
                 </div>
             </div>
         </div>
-        <div id="list-kpi">
+        <div id="list-kpi" data-intro='Dưới đây là danh sách các KPI của bạn. Bạn có thể thêm, sửa, xóa chúng.' data-step ="14">
             <span class="list-kpi-title">Danh sách KPI</span>
-            <div id="kpi-list-top">
-                <div id="kpi-status">
+            <div id="kpi-list-top" >
+                <div id="kpi-status" data-intro='Luân chuyển giữa 2 trạng thái của danh sách: Tất cả/Đã xóa.' data-step ="15">
                     <div id="kpi_all" class="kpi-status-item kpi-status-active">
                         <span>Tất cả</span>
                     </div>
@@ -131,7 +131,7 @@
                     </div>
                 </div>
                 <div id="kpi-search">
-                    <form action="" class="search-kpi">
+                    <form action="" class="search-kpi" data-intro='Tìm kiếm KPI bằng cách nhập các từ khóa(Tên, Định kỳ,...)' data-step ="16">
                         <button><i class="fa-solid fa-magnifying-glass"></i></button>
                         <input type="text" placeholder="Tìm kiếm">
                         <div class="filter-option">
@@ -162,17 +162,17 @@
                             </div>
                         </div>
                     </form>
-                    <div class="filter">
+                    <div class="filter" data-intro='Hoặc bạn có thể click vào đây để tìm kiếm bằng cách lọc theo các bộ lọc có sẵn' data-step ="17">
                         <span><i class="fa-solid fa-filter"></i></span>
                     </div>
                 </div>
                 
             </div>
-            <div id="kpi-table">
+            <div id="kpi-table" data-intro='Đây là bảng danh sách các KPI của bạn.' data-step ="18">
                 @include('kpi_all')
             </div>
             <div id="bot-list-kpi">
-                <div class="add-kpi">
+                <div class="add-kpi" data-intro='Thêm các KPI mới của bạn tại đây!' data-step ="21">
                     <span>+ Thêm KPI</span>
                 </div>
                 <div class="paginate">

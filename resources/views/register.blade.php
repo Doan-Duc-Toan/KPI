@@ -13,7 +13,7 @@
         <div id="content">
             <h1>Đăng ký tài khoản</h1>
             <div id="login">
-                <form action="" method="POST">
+                <form action="">
                    
                     <input type="text" name="fullname" value="" placeholder="Họ và Tên">
                     

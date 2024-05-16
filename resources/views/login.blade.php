@@ -85,81 +85,14 @@
             color: #4c4c4c;
         }
     </style>
-    {{-- <link rel="stylesheet" href="{{asset('client/css/toast-respon.css')}}"> --}}
-    {{-- @if (!empty(session('status')))
-            <script>
-                $(document).ready(function() {
-                    setTimeout(function() {
-                        $(".wr-toast").show(500)
-                    }, 0)
-                    setTimeout(function() {
-                        $(".wr-toast").hide(500); // Ẩn trong 0.5 giây
-                    }, 4000);
-                    $('.toast-x').click(function() {
-                        $(".toast-notify").hide(500);
-                    })
-                })
-            </script>
-            <div class="wr-toast">
-                <div class="toast-notify">
-                    <div class="toast-icon center">
-                        <span class="center"><i class="fa-solid fa-check"></i></span>
-                    </div>
-                    <div class="toast-body">
-                        <span class="toast-title">
-                            <b>Thành công</b>
-                        </span><br>
-                        <span class="toast-content">
-                            {{session('status')}}
-                        </span>
-                    </div>
-                    <div class="toast-x">
-                        <span><i class="fa-solid fa-x"></i></span>
-                    </div>
-                </div>
-            </div>
-        @endif --}}
-    @if (!empty(session('notify')))
-        <script>
-            $(document).ready(function() {
-                setTimeout(function() {
-                    $(".wr-toast").show(500)
-                }, 0)
-                setTimeout(function() {
-                    $(".wr-toast").hide(500); // Ẩn trong 0.5 giây
-                }, 4000);
-                $('.toast-x').click(function() {
-                    $(".toast-notify").hide(500);
-                })
-            })
-        </script>
-        <div class="wr-toast">
-            <div class="toast-notify" style="border-left: 5px solid #EA2027 !important;">
-                <div class="toast-icon center">
-                    <span class="center"
-                        style= "background-color:#EA2027 !important;color: #FFFFFF; font-size:17px;">!</span>
-                </div>
-                <div class="toast-body">
-                    <span class="toast-title">
-                        <b>Thông báo</b>
-                    </span><br>
-                    <span class="toast-content">
-                        {{ session('notify') }}
-                    </span>
-                </div>
-                <div class="toast-x">
-                    <span><i class="fa-solid fa-x"></i></span>
-                </div>
-            </div>
-        </div>
-    @endif
+
     <div id="wrapper">
 
         <div id="content">
 
             <h1>Đăng nhập</h1>
             <div id="login">
-                <form action="" method="POST">
+                <form action="" >
                     @csrf
                     <input type="email" value ="" placeholder="E-mail" name="email" id="email">
 

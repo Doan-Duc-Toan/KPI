@@ -24,7 +24,7 @@ $(document).ready(function () {
         $('#kpi-table').addClass("table-dark-mode");
         $('.filter-option').addClass("bg-dark-mode-sub");
 
-        
+
         $('#setting-profile').addClass("dark-mode-form");
         $('form').addClass('dark-mode-form');
         $("#setting-save button").addClass("border-light");
@@ -57,7 +57,7 @@ $(document).ready(function () {
         $('.kpi-day-item-bg span').toggleClass("color-light");
 
         $('#kpi-table').toggleClass("table-dark-mode");
- 
+
 
 
         $('#setting-profile').toggleClass("dark-mode-form");
@@ -74,7 +74,7 @@ $(document).ready(function () {
         $('.overview-item span').toggleClass("color-light");
         $('#statistical-kpi-table').toggleClass("table-dark-mode");
         $('.kpi-hint-item').toggleClass("bg-dark-mode-sub");
-       
+
         $('#calendar').toggleClass("calendar-dark-mode");
 
         // Lưu trạng thái vào localStorage dựa trên trạng thái của header
@@ -84,4 +84,11 @@ $(document).ready(function () {
             localStorage.setItem('darkMode', 'disabled');
         }
     });
+
+
+    // -----------guide---------
+
+    $("#instruct").click(function () {
+        introJs().start();
+    })
 })

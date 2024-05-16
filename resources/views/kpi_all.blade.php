@@ -14,7 +14,7 @@
     <tbody>
         <tr>
             <td>
-                <div class="kpi-info"><i class="fa-solid fa-circle-info"></i></div>
+                <div class="kpi-info" data-intro='Click vào đây để xem thông tin chi tiết KPI. Bạn cũng có thể chỉnh sửa chúng.' data-step ="19"><i class="fa-solid fa-circle-info"></i></div>
             </td>
             <td>
                 <div class="name-kpi"><span>Ngủ</span></div>
@@ -35,7 +35,7 @@
                 <div class="text-medium">Trung bình</div>
             </td>
             <td>
-                <div class="delete-kpi"><i class="fa-solid fa-trash-can"></i></div>
+                <div class="delete-kpi" data-intro='Xóa đi những KPI bạn cảm thấy không cần thiết nữa. Và nếu có xóa nhầm thì cũng đừng lo, bạn có thể khôi phục chúng trong mục "Đã xóa".' data-step ="20"><i class="fa-solid fa-trash-can"></i></div>
             </td>
         </tr>
         <tr>

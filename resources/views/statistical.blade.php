@@ -1,8 +1,8 @@
 @extends('layout')
 @section('content')
     <link rel="stylesheet" href="{{ asset('css/statistical.css') }}">
-    <div id="statistical-content">
-        <div id="overview">
+    <div id="statistical-content" data-intro='Tiếp theo, chúng ta sẽ đi chi tiết vào phần thống kê KPI.' data-step ="12">
+        <div id="overview" data-intro='Đầu tiên, chúng tôi đã thống kê tổng quan về số lượng các KPI theo từng trạng thái như bên dưới.' data-step ="13">
             <div class="overview-item">
                 <div id="total-kpi" class="overview-icon"><i class="fa-solid fa-layer-group"></i></div>
                 <div class="overview-content">
@@ -26,7 +26,7 @@
             </div>
         </div>
         <div id="list-statistical">
-            <div class="statistical-item">
+            <div class="statistical-item" data-intro='Tiếp theo là biểu đồ thống kê số lượng KPI hoàn thành trong tháng hiện tại.' data-step ="14">
                 <div class="statistical-item-title">
                     <span>Thống kê KPI trong tháng</span><br>
                     <span>Tháng 5</span>
@@ -35,7 +35,7 @@
                     <canvas id="chart-kpi-month"></canvas>
                 </div>
             </div>
-            <div class="statistical-item">
+            <div class="statistical-item" data-intro='Và thêm 1 biểu đồ nữa thống kê về tỉ lệ đạt KPI trong năm. Khi hover chuột vào các cột hay vùng có màu, thông tin chi tiết sẽ hiện ra.' data-step ="15">
                 <div class="statistical-item-title">
                     <span>Thống kê KPI năm 2024</span><br>
                     <span>Quý 2</span>
@@ -44,7 +44,7 @@
                     <canvas id="chart-kpi-year"></canvas>
                 </div>
             </div>
-            <div class="statistical-item">
+            <div class="statistical-item" data-intro='Chúng tôi cũng đưa ra thống kê tiến độ các KPI trong tuần để bạn có thể dễ dàng quản lý.' data-step ="16">
                 <div class="statistical-item-title">
                     <span>Thống kê KPI trong tuần</span><br>
                 </div>
@@ -119,7 +119,7 @@
                     </table>
                 </div>
             </div>
-            <div class="statistical-item">
+            <div class="statistical-item" data-intro='Và cuối cùng là những gợi ý chúng tôi đúc kết từ quá trình hoàn thiện các KPI của bạn, giúp bạn cải thiện hiệu suất KPI hơn trong tương lai.' data-step ="17">
                 <div class="statistical-item-title">
                     <span>Gợi ý</span><br>
                     <span>Những gợi ý giúp bạn cải thiện KPI</span>
