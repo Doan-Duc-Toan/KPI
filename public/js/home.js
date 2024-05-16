@@ -372,7 +372,7 @@ new Chart(ctx2, {
       
     }
   
-    var calendar = new Calendar('#calendar', data);
+    var calendar = new Calendar('#calendar-home', data);
   
   }();
   

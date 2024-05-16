@@ -272,6 +272,18 @@ div#avatar img {
 
 }
 
+
+.home-calendar-bg{
+    background-color: #181818 !important;
+
+}
+.home-calendar-content{
+    background-color: #242427 !important;
+}
+.home-calendar-content-sub{
+    background-color: #59595a !important;
+
+}
 /* ---------------------end-dark-mode------------ */
 
 

@@ -35,6 +35,10 @@ $(document).ready(function () {
         $('.kpi-hint-item').addClass("bg-dark-mode-sub");
         $('#calendar').addClass("calendar-dark-mode");
 
+        $("#calendar-home .header").addClass("home-calendar-bg")
+        $("#calendar-home .legend").addClass("home-calendar-bg")
+        $("#calendar-home .day").addClass("home-calendar-content")
+        $("#calendar-home .week").addClass("home-calendar-content")
     }
 
     // Xử lý sự kiện click cho toggle dark mode
@@ -76,6 +80,11 @@ $(document).ready(function () {
         $('.kpi-hint-item').toggleClass("bg-dark-mode-sub");
 
         $('#calendar').toggleClass("calendar-dark-mode");
+
+        $("#calendar-home .header").toggleClass("home-calendar-bg")
+        $("#calendar-home .legend").toggleClass("home-calendar-bg")
+        $("#calendar-home .day").toggleClass("home-calendar-content")
+        $("#calendar-home .week").toggleClass("home-calendar-content")
 
         // Lưu trạng thái vào localStorage dựa trên trạng thái của header
         if ($('#header').hasClass('bg-dark-mode-sub')) {

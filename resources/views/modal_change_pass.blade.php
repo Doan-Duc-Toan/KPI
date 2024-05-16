@@ -12,7 +12,7 @@
                     <input type="password" placeholder="Nhập mật khẩu mới">
                 </div>
                 <div class="form-create-kpi-group flex-full">
-                    <label for="">Tên KPI</label>
+                    <label for="">Nhập lại mật khẩu mới</label>
                     <input type="text" placeholder="Nhập lại mật khẩu mới">
                 </div>
                 <div class="btn-create">

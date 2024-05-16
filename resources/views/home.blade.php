@@ -35,7 +35,7 @@
         </div>
         <div id="right-content">
             <div id="calendarContent" data-intro='Lịch trình tuần này của bạn ở đây. Hãy click vào các ô có ngày màu xanh để xem chi tiết công việc!' data-step ="16">
-                <div id="calendar"></div>
+                <div id="calendar-home"></div>
             </div>
         </div>
     </div>
