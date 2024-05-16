@@ -20,10 +20,10 @@
                                     </div>
                                 </div>
                                 <div class="kpi-day-progess">
-                                    <canvas id="dayChart-1"></canvas>
+                                    <canvas id="dayChart_1"></canvas>
                                 </div>
                             </div>
-                            <div class="bot-kpi-day-item">
+                            <div class="bot-kpi-day-item update-kpi">
                                 <span>Cập nhật</span>
                             </div>
                         </div>
@@ -42,10 +42,10 @@
                                     </div>
                                 </div>
                                 <div class="kpi-day-progess">
-                                    <canvas id="dayChart-2"></canvas>
+                                    <canvas id="dayChart_2"></canvas>
                                 </div>
                             </div>
-                            <div class="bot-kpi-day-item">
+                            <div class="bot-kpi-day-item update-kpi">
                                 <span>Cập nhật</span>
                             </div>
                         </div>
@@ -64,10 +64,10 @@
                                     </div>
                                 </div>
                                 <div class="kpi-day-progess">
-                                    <canvas id="dayChart-3"></canvas>
+                                    <canvas id="dayChart_3"></canvas>
                                 </div>
                             </div>
-                            <div class="bot-kpi-day-item">
+                            <div class="bot-kpi-day-item update-kpi">
                                 <span>Cập nhật</span>
                             </div>
                         </div>
@@ -86,10 +86,10 @@
                                     </div>
                                 </div>
                                 <div class="kpi-day-progess">
-                                    <canvas id="dayChart-4"></canvas>
+                                    <canvas id="dayChart_4"></canvas>
                                 </div>
                             </div>
-                            <div class="bot-kpi-day-item">
+                            <div class="bot-kpi-day-item update-kpi">
                                 <span>Cập nhật</span>
                             </div>
                         </div>
@@ -108,10 +108,10 @@
                                     </div>
                                 </div>
                                 <div class="kpi-day-progess">
-                                    <canvas id="dayChart-5"></canvas>
+                                    <canvas id="dayChart_5"></canvas>
                                 </div>
                             </div>
-                            <div class="bot-kpi-day-item">
+                            <div class="bot-kpi-day-item update-kpi">
                                 <span>Cập nhật</span>
                             </div>
                         </div>
@@ -186,6 +186,8 @@
             </div>
 
         </div>
+        @include('modal_create_kpi')
+        @include('modal_detail_kpi')
     </div>
     <script src="{{ asset('js/manage.js') }}"></script>
 @endsection

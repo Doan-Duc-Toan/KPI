@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="{{ asset('OwlCarousel2-2.3.4/dist/assets/owl.carousel.css') }}">
     <link rel="stylesheet" href="{{ asset('OwlCarousel2-2.3.4/dist/assets/owl.theme.default.css') }}">
     <link href="https://cdn.jsdelivr.net/npm/intro.js@7.2.0/minified/introjs.min.css" rel="stylesheet">
+    <link rel="icon" href="{{ asset('img/personal-kpi.png') }}" type="image/x-icon">
+
     <title>KPI 28</title>
 </head>
 
@@ -25,7 +27,7 @@
         <div id="header" data-intro='Chào mừng đến với KPI 28. Sau đây tôi sẽ hướng dẫn bạn sử dụng KPI 28 hiệu quả.' data-step ="1">
             <div id="logo">
                 <img src="{{ asset('img/personal-kpi.png') }}" alt="">
-                <span>KPI 28</span>
+                <span>KPI HTPH</span>
             </div>
             <div id="header-content" >
                 <div id="hc-left">

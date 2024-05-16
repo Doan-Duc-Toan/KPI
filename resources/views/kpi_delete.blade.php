@@ -14,22 +14,22 @@
     <tbody>
         <tr>
             <td>
-                <div class="kpi-info" data-intro='Click vào đây để xem thông tin chi tiết KPI. Bạn cũng có thể chỉnh sửa chúng.' data-step ="19"><i class="fa-solid fa-circle-info"></i></div>
+                <div class="kpi-info detail-kpi" data-intro='Click vào đây để xem thông tin chi tiết KPI. Bạn cũng có thể chỉnh sửa chúng.' data-step ="19"><i class="fa-solid fa-circle-info"></i></div>
             </td>
             <td>
-                <div class="name-kpi"><span>Ngủ</span></div>
+                <div class="name-kpi"><span>Chuẩn bị báo cáo OOP</span></div>
             </td>
             <td>
-                <div><span>7h</span></div>
+                <div><span>4h</span></div>
             </td>
             <td>
-                <div><span>Ngày</span></div>
+                <div><span>Tuần</span></div>
             </td>
             <td>
-                <div><span>70%</span></div>
+                <div><span>100%</span></div>
             </td>
             <td>
-                <div><span>Không</span></div>
+                <div><span>02/03/2024</span></div>
             </td>
             <td>
                 <div class="text-medium">Trung bình</div>
@@ -40,22 +40,22 @@
         </tr>
         <tr>
             <td>
-                <div class="kpi-info"><i class="fa-solid fa-circle-info"></i></div>
+                <div class="kpi-info detail-kpi"><i class="fa-solid fa-circle-info"></i></div>
             </td>
             <td>
-                <div class="name-kpi"><span>Ngủ</span></div>
+                <div class="name-kpi"><span>Chuẩn bị GR1</span></div>
             </td>
             <td>
-                <div><span>7h</span></div>
+                <div><span>5h</span></div>
             </td>
             <td>
                 <div><span>Ngày</span></div>
             </td>
             <td>
-                <div><span>70%</span></div>
+                <div><span>100%</span></div>
             </td>
             <td>
-                <div><span>Không</span></div>
+                <div><span>11/02/2024</span></div>
             </td>
             <td>
                 <div class="text-high">Cao</div>
@@ -66,19 +66,19 @@
         </tr>
         <tr>
             <td>
-                <div class="kpi-info"><i class="fa-solid fa-circle-info"></i></div>
+                <div class="kpi-info detail-kpi"><i class="fa-solid fa-circle-info"></i></div>
             </td>
             <td>
-                <div class="name-kpi"><span>Ngủ</span></div>
+                <div class="name-kpi"><span>Karaoke với anh em</span></div>
             </td>
             <td>
-                <div><span>7h</span></div>
+                <div><span>3h</span></div>
             </td>
             <td>
-                <div><span>Ngày</span></div>
+                <div><span>Tuần</span></div>
             </td>
             <td>
-                <div><span>70%</span></div>
+                <div><span>0%</span></div>
             </td>
             <td>
                 <div><span>Không</span></div>
@@ -92,22 +92,22 @@
         </tr>
         <tr>
             <td>
-                <div class="kpi-info"><i class="fa-solid fa-circle-info"></i></div>
+                <div class="kpi-info detail-kpi"><i class="fa-solid fa-circle-info"></i></div>
             </td>
             <td>
-                <div class="name-kpi"><span>Ngủ</span></div>
+                <div class="name-kpi"><span>Đạt manten Nhật</span></div>
             </td>
             <td>
-                <div><span>7h</span></div>
+                <div><span>180 điểm</span></div>
             </td>
             <td>
-                <div><span>Ngày</span></div>
+                <div><span>Tháng</span></div>
             </td>
             <td>
-                <div><span>70%</span></div>
+                <div><span>100%</span></div>
             </td>
             <td>
-                <div><span>Không</span></div>
+                <div><span>12/12/2023</span></div>
             </td>
             <td>
                 <div class="text-medium">Trung bình</div>

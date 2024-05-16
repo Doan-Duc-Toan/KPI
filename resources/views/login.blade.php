@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="{{ asset('css/login.css') }}">
     {{-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"> --}}
     {{-- <script src="{{ asset('client/js/jquery.js') }}"></script> --}}
+    <link rel="icon" href="{{ asset('img/personal-kpi.png') }}" type="image/x-icon">
     <title>Đăng nhập</title>
 </head>
 

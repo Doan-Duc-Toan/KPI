@@ -39,4 +39,19 @@ $(document).ready(function () {
             }
         });
     })
+    $("#setting-info").on('click', '#btn-chane-pass', function () {
+        $("#modal-change-pass").stop().fadeToggle();
+
+    })
+    $("#setting-info").on('click', '#create-verify-code', function () {
+        $("#modal-create-verify-code").stop().fadeToggle();
+
+    })
+    $("#setting-info").on('click', '.view-all-device', function () {
+        $("#modal-list-device").stop().fadeToggle();
+
+    })
+    $(".btn-close").click(function () {
+        $(".modal").stop().fadeOut();
+    })
 })

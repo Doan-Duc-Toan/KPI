@@ -21,7 +21,7 @@
                     </div>
                     <div class="tp-item">
                         <span>Cơ quan</span><br>
-                        <span><b>SOICT</b></span>
+                        <span><b>Sun*</b></span>
                     </div>
                 </div>
                 <div class="bot-profile">

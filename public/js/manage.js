@@ -1,8 +1,13 @@
 $(document).ready(function () {
     $(".owl-carousel").owlCarousel();
+    let listChart = new Map();
+    listChart.set('dayChart_1', 13);
+    listChart.set('dayChart_2', 55);
+    listChart.set('dayChart_3', 27);
+    listChart.set('dayChart_4', 69);
+    listChart.set('dayChart_5', 31);
 
-    let listChart = ["dayChart-1", "dayChart-2", "dayChart-3", "dayChart-4", "dayChart-5"];
-    listChart.forEach(function (id) {
+    listChart.forEach(function (value, id) {
 
         new Chart(document.getElementById(id), {
             type: 'doughnut',
@@ -10,7 +15,7 @@ $(document).ready(function () {
                 labels: ['Hoàn thành', 'Chưa hoàn thành'],
                 datasets: [{
                     label: 'KPI',
-                    data: [50, 50],
+                    data: [100 - value, value],
                     borderWidth: 1
                 }]
             },
@@ -58,4 +63,16 @@ $(document).ready(function () {
             }
         });
     });
+    $(".add-kpi").click(function () {
+        $("#modal-create-kpi").stop().fadeToggle();
+    })
+    $(".btn-close").click(function () {
+        $(".modal").stop().fadeOut();
+    })
+    $("#kpi-table").on('click', ".detail-kpi", function () {
+        $("#modal-detail-kpi").stop().fadeToggle();
+    })
+    $(".update-kpi").click(function () {
+        $("#modal-detail-kpi").stop().fadeToggle();
+    })
 });

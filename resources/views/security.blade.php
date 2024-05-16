@@ -6,7 +6,7 @@
 </div>
 <div id="change-pass" class="security-item">
     <span class="security-item-title">Mật khẩu</span>
-    <div class="security-item-detail">
+    <div id="btn-chane-pass" class="security-item-detail">
         <span>Đổi mật khẩu</span>
     </div>
 </div>
@@ -27,7 +27,7 @@
 </div>
 <div id="verify-code" class="security-item">
     <span class="security-item-title">Mã xác thực</span>
-    <div class="security-item-detail">
+    <div id="create-verify-code" class="security-item-detail">
         <span>Khởi tạo mã</span>
     </div>
 </div>
@@ -36,7 +36,7 @@
     <h3>Lịch sử hoạt động</h3>
     <div class="act-history-title">
         <span>Tất cả thiết bị (4)</span>
-        <span>Tất cả</span>
+        <span class="view-all-device">Tất cả</span>
     </div>
     <div class="act-history-list">
         <div class="act-history-item">

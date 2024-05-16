@@ -23,6 +23,9 @@
                 <button data-intro='Sau khi đã điều chỉnh những thông tin cần thiết, hãy bấm "Lưu".' data-step ="15">Lưu</button>
             </div>
         </form>
+        @include("modal_change_pass")
+        @include("modal_create_verify_code")
+        @include("modal_list_device")
     </div>
     <script src="{{ asset('js/setting.js') }}"></script>
 @endsection
