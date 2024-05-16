@@ -35,7 +35,7 @@
         </div>
         <div id="right-content">
             <div id="calendarContent">
-                <div class="route" id="index"></div>
+                {{-- <div class="route" id="index"></div>
                 <div class="route" id="oct-week-3"></div>
                 <div class="route" id="oct-week-4"></div>
                 <div class="route" id="nov-week-1"></div>
@@ -252,9 +252,11 @@
                             </div>
                         </div>
                     </section>
-                </main>
+                </main> --}}
+                <div id="calendar"></div>
             </div>
         </div>
     </div>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.5.1/moment.min.js"></script>
     <script src="{{ asset('js/home.js') }}"></script>
 @endsection

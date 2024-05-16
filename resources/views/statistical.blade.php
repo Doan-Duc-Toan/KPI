@@ -130,7 +130,7 @@
                             <span><i class="fa-solid fa-key"></i></span>
                         </div>
                         <div class="kpi-hint-item-content">
-                            <span>Xác định xem các KPI hiện tại có phản ánh đúng mục tiêu và ưu tiên của bạn không</span>
+                            <span>Xác định xem các KPI hiện tại có phản ánh đúng mục tiêu và ưu tiên của bạn không?</span>
                         </div>
                     </div>
                     <div class="kpi-hint-item">
@@ -146,7 +146,7 @@
                             <span><i class="fa-solid fa-mug-hot"></i></span>
                         </div>
                         <div class="kpi-hint-item-content">
-                            <span>Hãy nghỉ ngơi một chút để có thêm năng lượng hoàn thành các mục tiêu kế tiếp</span>
+                            <span>Hãy nghỉ ngơi một chút để có thêm năng lượng hoàn thành các mục tiêu kế tiếp!</span>
                         </div>
                     </div>
                 </div>

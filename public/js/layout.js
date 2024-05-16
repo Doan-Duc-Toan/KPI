@@ -33,6 +33,7 @@ $(document).ready(function () {
         $('.overview-item span').addClass("color-light");
         $('#statistical-kpi-table').addClass("table-dark-mode");
         $('.kpi-hint-item').addClass("bg-dark-mode-sub");
+        $('#calendar').addClass("calendar-dark-mode");
 
     }
 
@@ -73,7 +74,8 @@ $(document).ready(function () {
         $('.overview-item span').toggleClass("color-light");
         $('#statistical-kpi-table').toggleClass("table-dark-mode");
         $('.kpi-hint-item').toggleClass("bg-dark-mode-sub");
-
+       
+        $('#calendar').toggleClass("calendar-dark-mode");
 
         // Lưu trạng thái vào localStorage dựa trên trạng thái của header
         if ($('#header').hasClass('bg-dark-mode-sub')) {
