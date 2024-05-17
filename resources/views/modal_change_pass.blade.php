@@ -2,7 +2,7 @@
     <div class="bg-modal">
         <div class="modal-content">
             <form action="">
-                <div class="modal-content-title">Đổi mật khẩu</div>
+                <div class="modal-content-title"><span>Đổi mật khẩu</span></div>
                 <div class="form-create-kpi-group flex-full">
                     <label for="">Mật khẩu cũ</label>
                     <input type="password" placeholder="Nhập mật khẩu cũ">

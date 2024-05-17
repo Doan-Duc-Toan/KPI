@@ -2,7 +2,7 @@
     <div class="bg-modal">
         <div class="modal-content">
             <form action="">
-                <div class="modal-content-title">tất cả thiết bị (4)</div>
+                <div class="modal-content-title"><span>tất cả thiết bị (4)</span></div>
                 <div class="act-history-list">
                     <div class="act-history-item">
                         <span>DESKTOP-6TIG6EC • Hà Nội, Việt Nam</span>

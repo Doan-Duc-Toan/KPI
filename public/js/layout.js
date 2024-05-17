@@ -39,6 +39,10 @@ $(document).ready(function () {
         $("#calendar-home .legend").addClass("home-calendar-bg")
         $("#calendar-home .day").addClass("home-calendar-content")
         $("#calendar-home .week").addClass("home-calendar-content")
+
+        $("#logo span").addClass("text-title-light")
+        $(".high-title").addClass("text-title-light")
+        $("#hc-left span").addClass("text-title-light")
     }
 
     // Xử lý sự kiện click cho toggle dark mode
@@ -86,6 +90,11 @@ $(document).ready(function () {
         $("#calendar-home .day").toggleClass("home-calendar-content")
         $("#calendar-home .week").toggleClass("home-calendar-content")
 
+        $("#logo span").toggleClass("text-title-light")
+        $(".high-title").toggleClass("text-title-light")
+        $("#hc-left span").toggleClass("text-title-light")
+
+
         // Lưu trạng thái vào localStorage dựa trên trạng thái của header
         if ($('#header').hasClass('bg-dark-mode-sub')) {
             localStorage.setItem('darkMode', 'enabled');
@@ -98,6 +107,8 @@ $(document).ready(function () {
     // -----------guide---------
 
     $("#instruct").click(function () {
-        introJs().start();
+        introJs().setOptions({
+            showProgress: true,
+          }).start()
     })
 })

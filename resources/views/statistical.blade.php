@@ -28,7 +28,7 @@
         <div id="list-statistical">
             <div class="statistical-item" data-intro='Tiếp theo là biểu đồ thống kê số lượng KPI hoàn thành trong tháng hiện tại.' data-step ="14">
                 <div class="statistical-item-title">
-                    <span>Thống kê KPI trong tháng</span><br>
+                    <span class="high-title">Thống kê KPI trong tháng</span><br>
                     <span>Tháng 5</span>
                 </div>
                 <div class="statistical-chart">
@@ -37,7 +37,7 @@
             </div>
             <div class="statistical-item" data-intro='Và thêm 1 biểu đồ nữa thống kê về tỉ lệ đạt KPI trong năm. Khi hover chuột vào các cột hay vùng có màu, thông tin chi tiết sẽ hiện ra.' data-step ="15">
                 <div class="statistical-item-title">
-                    <span>Thống kê KPI năm 2024</span><br>
+                    <span class="high-title">Thống kê KPI năm 2024</span><br>
                     <span>Quý 2</span>
                 </div>
                 <div class="statistical-chart">
@@ -46,7 +46,7 @@
             </div>
             <div class="statistical-item" data-intro='Chúng tôi cũng đưa ra thống kê tiến độ các KPI trong tuần để bạn có thể dễ dàng quản lý.' data-step ="16">
                 <div class="statistical-item-title">
-                    <span>Thống kê KPI trong tuần</span><br>
+                    <span class="high-title">Thống kê KPI trong tuần</span><br>
                 </div>
                 <div id="statistical-kpi-table">
                     <table>
@@ -121,7 +121,7 @@
             </div>
             <div class="statistical-item" data-intro='Và cuối cùng là những gợi ý chúng tôi đúc kết từ quá trình hoàn thiện các KPI của bạn, giúp bạn cải thiện hiệu suất KPI hơn trong tương lai.' data-step ="17">
                 <div class="statistical-item-title">
-                    <span>Gợi ý</span><br>
+                    <span class="high-title">Gợi ý</span><br>
                     <span>Những gợi ý giúp bạn cải thiện KPI</span>
                 </div>
                 <div class="kpi-hint">

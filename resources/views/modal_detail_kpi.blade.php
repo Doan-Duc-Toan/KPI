@@ -2,7 +2,14 @@
     <div class="bg-modal">
         <div class="modal-content">
             <form action="">
-                <div class="modal-content-title">Thêm KPI</div>
+                <div class="modal-content-title"><span>Chi tiết KPI</span> <div class="checkbox-wrapper-5">
+                        <div class="check">
+                            <input id="check-5" type="checkbox">
+                            <label for="check-5"></label>
+                        </div>
+                    </div>
+                </div>
+
                 <div id="kpi-name" class="form-create-kpi-group flex-full">
                     <label for="">Tên KPI</label>
                     <input value="Học tiếng Anh tại trung tâm" type="text" placeholder="Nhập tên KPI">
@@ -15,7 +22,7 @@
                     <label for="">Giá trị mục tiêu</label>
                     <input value="2" type="number" min="0" placeholder="Nhập giá trị mục tiêu của bạn">
                 </div>
-                <div  class="form-create-kpi-group flex-half">
+                <div class="form-create-kpi-group flex-half">
                     <label for="">Đơn vị đo</label>
                     <select name="" id="">
                         <option value="">Chọn đơn vị đo</option>
@@ -23,7 +30,7 @@
                         <option value="">Điểm</option>
                     </select>
                 </div>
-              
+
                 <div class="form-create-kpi-group flex-half">
                     <label for="">Định kỳ</label>
                     <select name="" id="">
@@ -40,7 +47,7 @@
                 </div>
                 <div class="form-create-kpi-group flex-half">
                     <label for="">Thời hạn</label>
-                    <input type="date" value="2024-12-20" placeholder="Chọn thời hạn" >
+                    <input type="date" value="2024-12-20" placeholder="Chọn thời hạn">
                 </div>
                 <div class="form-create-kpi-group flex-half">
                     <label for="">Ưu tiên</label>

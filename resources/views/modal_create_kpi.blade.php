@@ -2,7 +2,7 @@
     <div class="bg-modal">
         <div class="modal-content">
             <form action="">
-                <div class="modal-content-title">Thêm KPI</div>
+                <div class="modal-content-title"><span>Thêm KPI</span></div>
                 <div id="kpi-name" class="form-create-kpi-group flex-full">
                     <label for="">Tên KPI</label>
                     <input type="text" placeholder="Nhập tên KPI">

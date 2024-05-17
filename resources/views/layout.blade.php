@@ -34,7 +34,7 @@
                     <span>{{ $list_page[$page] }}</span>
                 </div>
                 <div id="hc-right">
-                    <form action="" class="search" data-intro='Tìm kiếm bất cứ điều gì ở KPI 28 tại đây.' data-step ="2">
+                    <form action="" class="search" data-intro='Tìm kiếm bất cứ điều gì ở KPI HTPH tại đây.' data-step ="2">
                         <button><i class="fa-solid fa-magnifying-glass"></i></button>
                         <input type="text" placeholder="Tìm kiếm">
                     </form>

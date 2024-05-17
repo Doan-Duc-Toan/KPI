@@ -2,6 +2,7 @@ $(document).ready(function () {
     var calendarEl = document.getElementById('calendar');
     var calendar = new FullCalendar.Calendar(calendarEl, {
         initialView: 'dayGridMonth',
+        locale: 'vi',
         editable: true, // Cho phép kéo thả và chỉnh sửa sự kiện
         selectable: true, // Cho phép chọn khoảng thời gian trên lịch
         dayMaxEventRows: 3,
