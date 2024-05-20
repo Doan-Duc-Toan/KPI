@@ -16,7 +16,9 @@ new Chart(ctx2, {
             y: {
                 beginAtZero: true
             }
-        }
+        },
+        maintainAspectRatio: false, // Đặt false để cho phép kích thước tùy chỉnh
+        responsive: true, // Biểu đồ sẽ điều chỉnh kích thước dựa trên kích thước của container
     }
 });
 

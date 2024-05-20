@@ -1,0 +1,133 @@
+@media(max-width:1300.98px) {
+    #left-content {
+        flex-basis: 55% !important;
+        max-width: 55% !important;
+    }
+
+    #right-content {
+        flex-basis: 45% !important;
+        max-width: 45% !important;
+    }
+
+    #sidebar .nav-item {
+        padding: 20px 40px;
+    }
+
+    #sidebar .nav-item a {
+        font-size: 16px !important;
+    }
+
+    #logo span {
+        font-size: 22px;
+    }
+
+    #home-content #left-content #welcome h3 {
+        font-size: 25px !important;
+    }
+
+    #logout a {
+        padding: 10px 15px;
+        font-size: 16px;
+    }
+}
+
+@media(max-width:1199.98px) {
+
+    .day {
+        width: 16.66%;
+    }
+
+    #welcome {
+        padding: 20px 30px 10px 30px;
+    }
+
+    #sidebar .nav-item {
+        padding: 20px 40px;
+    }
+}
+
+@media(max-width:1091.98px) {
+    #sidebar .nav-item {
+        padding: 15px 20px;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media(max-width:991.98px) {
+    #sidebar {
+        display: none;
+    }
+
+    #content {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+
+    #home-content {
+        flex-wrap: wrap;
+    }
+
+    #home-content #left-content {
+        flex-basis: 100% !important;
+        max-width: 100% !important;
+        height: auto !important;
+    }
+
+    #right-content {
+        flex-basis: 100% !important;
+        max-width: 100% !important;
+        margin: 50px 0px;
+        height: auto !important;
+    }
+
+    #logo {
+        border: none;
+        flex-basis: 10%;
+        padding-left: 15px;
+    }
+
+    #logo img {
+        height: 70%;
+        width: auto;
+    }
+
+    #logo span {
+        display: none;
+    }
+
+    div#header-content {
+        flex-basis: 90%;
+        max-width: 90%;
+    }
+
+    div#hc-left {
+        padding: 0;
+    }
+
+    #nav-sidebar {
+        display: block;
+    }
+
+    #home-content #left-content #welcome {
+        flex-basis: 15% !important;
+        max-height: 15% !important;
+    }
+
+    #home-content #left-content #profile {
+        flex-basis: 15% !important;
+        max-height: 15% !important;
+    }
+
+    #week_statistic {
+        flex-basis: 70% !important;
+        max-height: 70% !important;
+    }
+
+
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media(max-width:767.98px) {}
+
+/* Extra small devices (portrait phone, less than 576px) */
+@media (max-width:575.98px) {}

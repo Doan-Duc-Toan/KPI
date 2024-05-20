@@ -7,6 +7,8 @@ $(document).ready(function () {
         $('body').addClass('bg-dark-mode');
         $('#header').addClass('bg-dark-mode-sub');
         $('#sidebar').addClass('bg-dark-mode-sub');
+        $('#res-nav').addClass('bg-dark-mode-sub');
+
         $('#content').addClass('bg-dark-mode');
         $('#logo').addClass('border-none');
         $('.header-item').addClass('bg-dark-mode');
@@ -50,6 +52,7 @@ $(document).ready(function () {
         $(this).toggleClass("dark-mode-active");
         $('#header').toggleClass("bg-dark-mode-sub");
         $('#sidebar').toggleClass("bg-dark-mode-sub");
+        $('#res-nav').toggleClass('bg-dark-mode-sub');
         $('#content').toggleClass("bg-dark-mode");
         $('body').toggleClass('bg-dark-mode');
         $('#logo').toggleClass('border-none');
