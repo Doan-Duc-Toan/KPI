@@ -1,6 +1,7 @@
 @extends('layout')
 @section('content')
     <link rel="stylesheet" href="{{ asset('css/manage.css') }}">
+    <link rel="stylesheet" href="{{asset('css/manage_res.css')}}">
     <div id="manage-content" data-intro='Tiếp theo, chúng ta sẽ đi vào chi tiết phần quản lý KPI.' data-step ="12">
         <div id="kpi-day">
             <span class="kpi-day-title high-title">KPI trong ngày</span>
@@ -176,12 +177,12 @@
                     <span class="high-title">+ Thêm KPI</span>
                 </div>
                 <div class="paginate">
-                    <div class="pre move"><a href=""><i class="fa-solid fa-angle-left"></i> Previous</a></div>
+                    <div class="pre move"><a href=""><i class="fa-solid fa-angle-left"></i> <span>Previous</span></a></div>
                     <div class="page page-active"><a href="">1</a></div>
                     <div class="page"><a href="">2</a></div>
                     <div class="page"><a href="">3</a></div>
                     <div class="page"><a href="">4</a></div>
-                    <div class="next move"><a href="">Next <i class="fa-solid fa-angle-right"></i></a></div>
+                    <div class="next move"><a href=""><span>Next</span> <i class="fa-solid fa-angle-right"></i></a></div>
                 </div>
             </div>
 

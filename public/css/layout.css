@@ -273,6 +273,26 @@ div#avatar img {
     background-color: #181818 !important;
 
 }
+.table-dark-mode .card{
+    background-color: #09090b !important;
+
+
+
+}
+.table-dark-mode .card .header{
+    background-color: #181818 !important;
+
+}
+.table-dark-mode .card p{
+    color: #FFFFFF;
+}
+.table-dark-mode .card button{
+    background-color: #242427;
+}
+
+
+
+
 
 
 .home-calendar-bg {
@@ -292,6 +312,8 @@ div#avatar img {
 .text-title-light {
     color: #3532f5 !important;
 }
+
+
 
 /* ---------------------end-dark-mode------------ */
 
@@ -382,7 +404,7 @@ div#avatar img {
     bottom: 0px;
     left: 0px;
     right: 0px;
-    z-index: 1000;
+    z-index: 500;
     display: none;
 }
 
@@ -551,9 +573,15 @@ div#notice-board {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    max-width: 700px;
+    width: 700px;
+    max-width: 100%;
+    max-height: 100%;
+    overflow-y: scroll;
 }
-
+.bg-modal form::-webkit-scrollbar {
+    display: none;
+    /* Ẩn thanh cuộn trong WebKit browsers */
+}
 .bg-modal form .form-create-kpi-group {
     display: flex;
     flex-direction: column;
@@ -563,13 +591,13 @@ div#notice-board {
 .bg-modal form label {
     color: #232323;
     font-weight: 500;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .bg-modal form input,
 select,
 textarea {
-    padding: 15px 20px;
+    padding: 10px 20px;
     border: 1px solid #E6EFF5;
     border-radius: 10px;
     outline-style: none;
@@ -593,7 +621,7 @@ textarea {
 .modal-content-title {
     display: flex;
     color: #1814F3;
-    margin: 10px 0px;
+    margin: 5px 0px;
     font-size: 18px;
     font-weight: 600;
     flex-basis: 100%;
@@ -628,6 +656,9 @@ textarea {
     border-radius: 10px;
     margin: 0px 10px;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .btn-close {

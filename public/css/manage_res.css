@@ -1,0 +1,104 @@
+@media(max-width:1300.98px) {
+
+    /* ---------------------------end home ----------------- */
+}
+
+@media(max-width:1199.98px) {
+    .top-kpi-day-item .kpi-day-info .kpi-day-info-item span:last-child {
+        font-size: 16px;
+    }
+
+    .bot-kpi-day-item span {
+        font-size: 16px;
+    }
+}
+
+@media(max-width:1091.98px) {}
+
+/* Medium devices (tablets, less than 992px) */
+@media(max-width:991.98px) {
+    .top-kpi-day-item .kpi-day-info {
+        flex-basis: 60%;
+        max-width: 60%;
+    }
+
+    .top-kpi-day-item .kpi-day-progess {
+        flex-basis: 40%;
+        max-width: 40%;
+    }
+
+    #manage-content {
+        padding-bottom: 100px !important;
+    }
+
+    #kpi-table table {
+        display: none;
+    }
+
+    #table-res {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .kpi-item-res {
+        flex-basis: 48%;
+        margin-bottom: 20px;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media(max-width:767.98px) {
+    #kpi-search form {
+        border: none;
+        padding: 0;
+    }
+
+    #kpi-search form input {
+        display: none;
+    }
+
+    #kpi-search form button {
+        display: none;
+    }
+
+    #kpi-status .kpi-status-item {
+        padding: 0px 10px;
+        /* margin: ; */
+    }
+
+    .paginate .move a span {
+        display: none;
+    }
+
+    .bg-modal {
+        align-items: normal;
+    }
+
+
+    .bg-modal form {
+        border-radius: 0;
+        width: 100%;
+        height: 100%;
+        overflow-y: scroll;
+        box-sizing: border-box;
+    }
+}
+
+/* Extra small devices (portrait phone, less than 576px) */
+@media (max-width:575.98px) {
+    .kpi-item-res {
+        flex-basis: 100%;
+    }
+
+    .btn-create .btn-modal {
+        padding: 13px 20px;
+    }
+
+    #bot-list-kpi .add-kpi {
+        font-size: 15px;
+    }
+}

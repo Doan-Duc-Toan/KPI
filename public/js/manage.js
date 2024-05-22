@@ -1,5 +1,21 @@
 $(document).ready(function () {
-    $(".owl-carousel").owlCarousel();
+    $(".owl-carousel").owlCarousel({
+        margin: 10, // Khoảng cách giữa các slide
+        autoplay: true, // Tự động chuyển slide
+        autoplayTimeout: 2000, // Thời gian chờ tự động chuyển slide (2000 ms)
+        autoplayHoverPause: true, // Tạm dừng khi rê chuột lên slide
+        responsive: {
+            0: {
+                items: 1 // dưới 500px sẽ hiển thị 1 slide
+            },
+            500: {
+                items: 2 // từ 500px đến 900px sẽ hiển thị 2 slide
+            },
+            900: {
+                items: 3 // trên 900px cũng sẽ hiển thị 2 slide
+            }
+        }
+    });
     let listChart = new Map();
     listChart.set('dayChart_1', 13);
     listChart.set('dayChart_2', 55);

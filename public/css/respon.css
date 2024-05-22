@@ -29,6 +29,8 @@
         padding: 10px 15px;
         font-size: 16px;
     }
+
+    /* ---------------------------end home ----------------- */
 }
 
 @media(max-width:1199.98px) {
@@ -40,16 +42,20 @@
     #welcome {
         padding: 20px 30px 10px 30px;
     }
-
-    #sidebar .nav-item {
-        padding: 20px 40px;
-    }
-}
-
-@media(max-width:1091.98px) {
     #sidebar .nav-item {
         padding: 15px 20px;
     }
+
+
+    /* ---------------------------end home ----------------- */
+
+}
+
+@media(max-width:1091.98px) {
+  
+
+    /* ---------------------------end home ----------------- */
+
 }
 
 /* Medium devices (tablets, less than 992px) */
@@ -78,6 +84,7 @@
         max-width: 100% !important;
         margin: 50px 0px;
         height: auto !important;
+        padding: 0 !important;
     }
 
     #logo {
@@ -104,18 +111,23 @@
         padding: 0;
     }
 
+    div#hc-left span {
+        font-size: 25px !important;
+
+    }
+
     #nav-sidebar {
         display: block;
     }
 
     #home-content #left-content #welcome {
         flex-basis: 15% !important;
-        max-height: 15% !important;
+        /* max-height: 15% !important; */
     }
 
     #home-content #left-content #profile {
         flex-basis: 15% !important;
-        max-height: 15% !important;
+        /* max-height: 15% !important; */
     }
 
     #week_statistic {
@@ -123,11 +135,98 @@
         max-height: 70% !important;
     }
 
+    div.header-item {
+        width: 40px;
+        height: 40px;
+    }
+
+    div.header-item img {
+        width: 100%;
+        height: 100%;
+    }
+
+    div#avatar {
+        width: 50px;
+        height: 50px;
+    }
+
+    div#avatar img {
+        width: 50px;
+        height: 50px;
+    }
+
+    div#hc-right form input {
+        height: 30px;
+        font-size: 14px;
+    }
+
+    div#hc-right form input::placeholder {
+        font-size: 14px !important;
+
+    }
+
+    /* ---------------------------end home ----------------- */
 
 }
 
 /* Small devices (landscape phones, less than 768px) */
-@media(max-width:767.98px) {}
+@media(max-width:767.98px) {
+    div#hc-right form {
+        display: none;
+    }
+
+    div#notice-board {
+        position: absolute;
+        top: 90px;
+        right: 20px;
+        z-index: 100;
+        width: 340px;
+        max-height: 70vh;
+        min-height: 40vh;
+        padding-bottom: 20px;
+    }
+
+}
 
 /* Extra small devices (portrait phone, less than 576px) */
-@media (max-width:575.98px) {}
+@media (max-width:575.98px) {
+    #header {
+        height: 70px;
+    }
+
+    div#hc-left {
+        display: none !important;
+    }
+
+    div#header-content {
+        justify-content: right;
+    }
+
+    div.header-item {
+        margin: 0px 5px;
+    }
+
+    div#avatar {
+        margin-right: 10px;
+    }
+
+    #home-content #left-content #welcome {
+        padding: 15px !important;
+    }
+    #home-content #left-content #welcome h3 {
+        font-size: 20px !important;
+    }
+    #home-content #left-content #welcome .welcome-text{
+        margin-right: 10px;
+    }
+    #home-content #left-content #welcome .welcome-text span {
+        font-size: 14px;
+    }
+    #week_statistic{
+        flex-basis: 50%;
+    }
+
+    #res-nav {
+        padding: 20px 50px;
+    }
+}
