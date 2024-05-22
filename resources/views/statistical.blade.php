@@ -1,6 +1,7 @@
 @extends('layout')
 @section('content')
     <link rel="stylesheet" href="{{ asset('css/statistical.css') }}">
+    <link rel="stylesheet" href="{{asset('css/statistical_res.css')}}">
     <div id="statistical-content" data-intro='Tiếp theo, chúng ta sẽ đi chi tiết vào phần thống kê KPI.' data-step ="12">
         <div id="overview" data-intro='Đầu tiên, chúng tôi đã thống kê tổng quan về số lượng các KPI theo từng trạng thái như bên dưới.' data-step ="13">
             <div class="overview-item">
