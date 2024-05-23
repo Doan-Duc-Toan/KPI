@@ -1,7 +1,13 @@
 <div class="security-item">
-    <span class="security-item-title">Email đăng ký tài khoản</span>
+    <span class="security-item-title">Email</span>
     <div class="security-item-detail">
         <span>toanymanh@gmail.com</span>
+    </div>
+</div>
+<div class="security-item">
+    <span class="security-item-title">Số điện thoại</span>
+    <div class="security-item-detail">
+        <span>0911577985</span>
     </div>
 </div>
 <div id="change-pass" class="security-item">
@@ -10,6 +16,7 @@
         <span>Đổi mật khẩu</span>
     </div>
 </div>
+
 <div id="two-way" class="security-item">
     <span class="security-item-title">Xác thực hai chiều</span>
     <div class="security-item-detail">
@@ -19,12 +26,7 @@
         </label>
     </div>
 </div>
-<div class="security-item">
-    <span class="security-item-title">Số điện thoại</span>
-    <div class="security-item-detail">
-        <span>0911577985</span>
-    </div>
-</div>
+
 <div id="verify-code" class="security-item">
     <span class="security-item-title">Mã xác thực</span>
     <div id="create-verify-code" class="security-item-detail">

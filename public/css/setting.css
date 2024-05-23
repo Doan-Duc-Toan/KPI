@@ -12,16 +12,12 @@
 }
 
 #setting-content form {
-    height: 100%;
     width: 100%;
-    overflow-y: scroll;
-    /* padding: 15px; */
     padding-bottom: 20px;
+    box-sizing: border-box;
+
 }
-#setting-content form::-webkit-scrollbar {
-    display: none;
-    /* Ẩn thanh cuộn trong WebKit browsers */
-}
+
 #setting-profile {
     background-color: #FFFFFF;
     border-radius: 20px;
@@ -230,7 +226,7 @@ div.setting-notify {
 .switch {
     position: relative;
     display: inline-block;
-    width: 60px;
+    min-width: 60px;
     height: 34px;
 }
 

@@ -1,6 +1,7 @@
 @extends('layout')
 @section('content')
     <link rel="stylesheet" href="{{ asset('css/calendar.css') }}">
+    <link rel="stylesheet" href="{{asset('css/calendar_res.css')}}">
     <div id="calendar-content" data-intro='Tại đây là chi tiết lịch làm việc của bạn. Bạn có thể điều chỉnh thời gian của công việc bằng cách kéo thả chúng đến các ô khác nhau.' data-step ="12">
         <div id='calendar'></div>
     </div>

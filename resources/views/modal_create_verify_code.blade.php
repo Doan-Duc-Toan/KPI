@@ -9,7 +9,7 @@
                 </div>
                 <div class="btn-create">
                     <span class="btn-modal btn-close">Đóng</span>
-                    <button class="btn-modal btn-add">Sinh mã xác thực</button>
+                    <button class="btn-modal btn-add">Sinh mã</button>
                 </div>
             </form>
         </div>

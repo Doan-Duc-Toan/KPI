@@ -38,7 +38,9 @@
     div#overview {
         flex-wrap: wrap;
     }
-
+    div#statistical-content {
+        padding-bottom: 50px !important;
+    }
     div#overview .overview-item {
         flex-basis: 100%;
         max-width: 100%;

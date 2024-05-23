@@ -5,7 +5,10 @@
     max-height: 100%;
     overflow-y: scroll;
 }
-
+#calendar-content::-webkit-scrollbar {
+    display: none;
+    /* Ẩn thanh cuộn trong WebKit browsers */
+}
 #calendar {
     background-color: #FFFFFF;
     padding: 20px;
