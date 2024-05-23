@@ -45,6 +45,8 @@ $(document).ready(function () {
         $("#logo span").addClass("text-title-light")
         $(".high-title").addClass("text-title-light")
         $("#hc-left span").addClass("text-title-light")
+        $("#search_form_res button").addClass("color-light")
+        $("#search_form_res input").addClass("color-light")
     }
 
     // Xử lý sự kiện click cho toggle dark mode
@@ -96,6 +98,9 @@ $(document).ready(function () {
         $("#logo span").toggleClass("text-title-light")
         $(".high-title").toggleClass("text-title-light")
         $("#hc-left span").toggleClass("text-title-light")
+        $("#search_form_res button").toggleClass("color-light")
+        $("#search_form_res input").toggleClass("color-light")
+
 
 
         // Lưu trạng thái vào localStorage dựa trên trạng thái của header
@@ -106,12 +111,27 @@ $(document).ready(function () {
         }
     });
 
+    $("#search_res").click(function () {
+        $("#search_form_res").css('display', 'flex');
+    })
+    $('#search_form_res').click(function(event) {
+        // Kiểm tra nếu phần tử được click là chính khối cha
+        if (event.target === this) {
+            $(this).hide();
+        }
+    });
+
+
 
     // -----------guide---------
+
+
+
+
 
     $("#instruct").click(function () {
         introJs().setOptions({
             showProgress: true,
-          }).start()
+        }).start()
     })
 })

@@ -146,6 +146,44 @@ div#avatar img {
     border-radius: 50%;
 }
 
+/* -------------------search respon------------------------- */
+#search_res {
+    color: #27ae60;
+    display: none;
+}
+
+#search_form_res {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1500;
+    background: rgba(0, 0, 0, .4);
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+#search_form_res form{
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 0px 10px;
+    background-color: #FFFFFF;
+}
+#search_form_res button{
+    border: none;
+    outline-style: none;
+    background-color: #FFFFFF;
+    color: #362626;
+}
+#search_form_res input{
+    outline-style: none;
+    border: none;
+    color: #674c4c;
+    padding: 10px 15px;
+
+}
 /* -------------------dark-mode---------- */
 
 #dark-mode {
@@ -273,20 +311,24 @@ div#avatar img {
     background-color: #181818 !important;
 
 }
-.table-dark-mode .card{
+
+.table-dark-mode .card {
     background-color: #09090b !important;
 
 
 
 }
-.table-dark-mode .card .header{
+
+.table-dark-mode .card .header {
     background-color: #181818 !important;
 
 }
-.table-dark-mode .card p{
+
+.table-dark-mode .card p {
     color: #FFFFFF;
 }
-.table-dark-mode .card button{
+
+.table-dark-mode .card button {
     background-color: #242427;
 }
 
@@ -418,11 +460,12 @@ div#avatar img {
     box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.100);
 }
 
-.res-nav-item a{
+.res-nav-item a {
     font-size: 20px;
     color: #b8cef2;
 }
-.res-nav-active a{
+
+.res-nav-active a {
     color: #095fea !important;
 }
 
@@ -578,10 +621,12 @@ div#notice-board {
     max-height: 100%;
     overflow-y: scroll;
 }
+
 .bg-modal form::-webkit-scrollbar {
     display: none;
     /* Ẩn thanh cuộn trong WebKit browsers */
 }
+
 .bg-modal form .form-create-kpi-group {
     display: flex;
     flex-direction: column;

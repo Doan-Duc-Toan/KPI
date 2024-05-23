@@ -185,7 +185,9 @@
         min-height: 40vh;
         padding-bottom: 20px;
     }
-
+    #search_res{
+        display: flex;
+    }
 }
 
 /* Extra small devices (portrait phone, less than 576px) */

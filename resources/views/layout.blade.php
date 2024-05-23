@@ -40,6 +40,9 @@
                         <button><i class="fa-solid fa-magnifying-glass"></i></button>
                         <input type="text" placeholder="Tìm kiếm">
                     </form>
+                    <div id="search_res" data-intro='Tìm kiếm bất cứ điều gì ở KPI HTPH tại đây.' data-step ="2"
+                        class="header-item"><span><i class="fa-solid fa-magnifying-glass"></i></span>
+                    </div>
                     <div id="instruct" data-intro='Click vào đây để xem hướng dẫn sử dụng chi tiết.' data-step ="3"
                         class="header-item"><span><i class="fa-solid fa-chalkboard-user"></i></span>
                     </div>
@@ -167,6 +170,13 @@
 
                 </div>
             </div>
+
+        </div>
+        <div id="search_form_res">
+            <form action="">
+                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                <input type="text" placeholder="Nhập từ khóa tại đây">
+            </form>
         </div>
         <div id="wr-content">
             <div id="sidebar" data-intro='Tiếp theo chúng ta sẽ đi đến từng chức năng trong hệ thống.'
