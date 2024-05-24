@@ -421,7 +421,18 @@
 .checkbox-wrapper-5 .check input[type="checkbox"]:checked+label {
     background: transparent;
 }
-
+.show{
+    display: inline !important;
+}
+.hide{
+    display: none !important;
+}
+.delete_unit{
+    display: none;
+}
+.input_unit{
+    display: none;
+}
 .checkbox-wrapper-5 .check label::before,
 .checkbox-wrapper-5 .check label::after {
     content: "· ·";

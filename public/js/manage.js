@@ -84,6 +84,8 @@ $(document).ready(function () {
     })
     $(".btn-close").click(function () {
         $(".modal").stop().fadeOut();
+        $("input.input_unit").hide();
+        $(".select_unit").show();
     })
     $("#kpi-table").on('click', ".detail-kpi", function () {
         $("#modal-detail-kpi").stop().fadeToggle();
@@ -91,4 +93,19 @@ $(document).ready(function () {
     $(".update-kpi").click(function () {
         $("#modal-detail-kpi").stop().fadeToggle();
     })
+    $(".add_unit").click(function () {
+        // $("input.input_unit").addClass('show');
+        $("input.input_unit").toggle();
+        $(".select_unit").toggle();
+        // $(".delete_unit").show();
+        // $(this).hide();
+    })
+    $("#kpi-table").on('click', ".add_unit", function () {
+        $("input.input_unit").toggle();
+        $(".select_unit").toggle();
+        // $(".delete_unit").show();
+        // $(this).hide();
+    })
+
+
 });

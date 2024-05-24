@@ -23,12 +23,13 @@
                     <input value="2" type="number" min="0" placeholder="Nhập giá trị mục tiêu của bạn">
                 </div>
                 <div class="form-create-kpi-group flex-half">
-                    <label for="">Đơn vị đo</label>
-                    <select name="" id="">
+                    <label for="">Đơn vị đo  <span class="add_unit" style="cursor: pointer">+</span></label>
+                    <select class="select_unit" name="" id="">
                         <option value="">Chọn đơn vị đo</option>
                         <option selected value="">Giờ</option>
                         <option value="">Điểm</option>
                     </select>
+                    <input class="input_unit" type="text" placeholder="Nhập đơn vị đo mới">
                 </div>
 
                 <div class="form-create-kpi-group flex-half">
