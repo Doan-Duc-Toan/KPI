@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Controller;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\ChatController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,6 +19,8 @@ use App\Http\Controllers\UserController;
 Route::get('/', function () {
     return redirect()->route('page', ['home']);
 });
+Route::get('/chat',[ChatController::class,'index'])->name('chat');
+Route::post('/chat/gpt',[ChatController::class,'__invoke'])->name('chatgpt');
 Route::get('/app/{page}', [Controller::class, 'index'])->name('page');
 Route::get('/login', [UserController::class, 'login'])->name('login');
 Route::get('/register', [UserController::class, 'register'])->name('register');

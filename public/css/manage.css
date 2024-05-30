@@ -302,12 +302,12 @@
 #bot-list-kpi {
     margin-top: 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content: right;
 }
 
-#bot-list-kpi .add-kpi {
+ .add-kpi {
     color: #343C6A;
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 600;
     cursor: pointer;
     display: flex;
@@ -316,7 +316,7 @@
     transition: all ease-in-out 0.2s;
 }
 
-#bot-list-kpi .add-kpi:hover {
+ .add-kpi:hover {
     color: #7988ec;
 }
 

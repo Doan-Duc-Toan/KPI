@@ -117,7 +117,7 @@
     }
 
     #nav-sidebar {
-        display: block;
+        display: flex !important;
     }
 
     #home-content #left-content #welcome {
@@ -179,7 +179,7 @@
         position: absolute;
         top: 90px;
         right: 20px;
-        z-index: 100;
+        z-index: 19;
         width: 340px;
         max-height: 70vh;
         min-height: 40vh;
@@ -228,7 +228,7 @@
         flex-basis: 50%;
     }
 
-    #res-nav {
-        padding: 20px 50px;
-    }
+    /* #res-nav {
+        padding: 50px 20px;
+    } */
 }

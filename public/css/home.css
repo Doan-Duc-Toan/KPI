@@ -178,7 +178,7 @@ body {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   overflow: hidden;
-  z-index: 100;
+  z-index: 10;
 }
 
 .header h1 {
@@ -265,7 +265,7 @@ body {
   cursor: pointer;
   background: #74b9ff;
   position: relative;
-  z-index: 100;
+  z-index: 10;
 }
 
 .day.other {

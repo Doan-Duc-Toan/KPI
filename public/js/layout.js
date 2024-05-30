@@ -7,7 +7,7 @@ $(document).ready(function () {
         $('body').addClass('bg-dark-mode');
         $('#header').addClass('bg-dark-mode-sub');
         $('#sidebar').addClass('bg-dark-mode-sub');
-        $('#res-nav').addClass('bg-dark-mode-sub');
+        $('#nav-sidebar').addClass('profile-dark-mode');
 
         $('#content').addClass('bg-dark-mode');
         $('#logo').addClass('border-none');
@@ -54,7 +54,7 @@ $(document).ready(function () {
         $(this).toggleClass("dark-mode-active");
         $('#header').toggleClass("bg-dark-mode-sub");
         $('#sidebar').toggleClass("bg-dark-mode-sub");
-        $('#res-nav').toggleClass('bg-dark-mode-sub');
+        $('#nav-sidebar').toggleClass('profile-dark-mode');
         $('#content').toggleClass("bg-dark-mode");
         $('body').toggleClass('bg-dark-mode');
         $('#logo').toggleClass('border-none');
@@ -114,7 +114,7 @@ $(document).ready(function () {
     $("#search_res").click(function () {
         $("#search_form_res").css('display', 'flex');
     })
-    $('#search_form_res').click(function(event) {
+    $('#search_form_res').click(function (event) {
         // Kiểm tra nếu phần tử được click là chính khối cha
         if (event.target === this) {
             $(this).hide();
@@ -133,5 +133,26 @@ $(document).ready(function () {
         introJs().setOptions({
             showProgress: true,
         }).start()
+    })
+
+    $(".bar-icon").click(function () {
+        $(this).toggleClass('rotated');
+        $("#nav-sidebar").toggleClass('top-50');
+        // setTimeout(function () {
+        //     $("#res-nav").toggleClass('d-flex');
+        // }, 500);
+
+        $("#res-nav").toggleClass('d-flex');
+
+    });
+
+    $(".btn-logout").click(function (e) {
+        e.preventDefault();
+        $("#modal-logout").stop().fadeToggle();
+    })
+    $(".btn-close").click(function () {
+        $(".modal").stop().fadeOut();
+        $("input.input_unit").hide();
+        $(".select_unit").show();
     })
 })

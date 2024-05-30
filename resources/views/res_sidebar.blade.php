@@ -34,10 +34,12 @@
             </a>
         </div>
         <div class="res-nav-item">
-            <a href="{{ route('login') }}">
+            <a class="btn-logout" href="{{ route('login') }}">
                 <span class="res-nav-icon"><i class="fa-solid fa-right-from-bracket"></i> </span>
             </a>
         </div>
     </div>
-
+    <div id="bar">
+        <div class="bar-icon"></div>
+    </div>
 </div>

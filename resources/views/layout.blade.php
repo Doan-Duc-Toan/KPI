@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="{{ asset('OwlCarousel2-2.3.4/dist/assets/owl.carousel.css') }}">
     <link rel="stylesheet" href="{{ asset('OwlCarousel2-2.3.4/dist/assets/owl.theme.default.css') }}">
     <link href="https://cdn.jsdelivr.net/npm/intro.js@7.2.0/minified/introjs.min.css" rel="stylesheet">
+    <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+    <script src="https://mediafiles.botpress.cloud/6518a8d2-1230-4859-900f-5b05ea216696/webchat/config.js" defer></script>
     <link rel="icon" href="{{ asset('img/personal-kpi.png') }}" type="image/x-icon">
     <link rel="stylesheet" href="{{ asset('css/respon.css') }}">
     <title>KPI 28</title>
@@ -222,7 +224,8 @@
                     </div>
                 </div>
                 <div id="logout">
-                    <a href="{{ route('login') }}"><i class="fa-solid fa-right-from-bracket"></i> <span>Đăng
+                    <a class="btn-logout" href="{{ route('login') }}"><i class="fa-solid fa-right-from-bracket"></i>
+                        <span>Đăng
                             xuất</span></a>
                 </div>
             </div>
@@ -230,6 +233,7 @@
                 @yield('content')
             </div>
             @include('res_sidebar')
+            @include('modal_logout')
         </div>
     </div>
 </body>

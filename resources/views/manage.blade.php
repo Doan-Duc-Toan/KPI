@@ -5,6 +5,7 @@
     <div id="manage-content" data-intro='Tiếp theo, chúng ta sẽ đi vào chi tiết phần quản lý KPI.' data-step ="12">
         <div id="kpi-day">
             <span class="kpi-day-title high-title">KPI trong ngày</span>
+            
             <div class="list-kpi-day" data-intro='Danh sách các KPI quan trọng trong ngày sẽ được hiển thị tại đây.' data-step ="13">
                 <div class="owl-carousel">
                     <div class="kpi-day-item" data-intro='Chi tiết KPI gồm có tên, độ quan trọng, và biểu đồ thống kế tiến độ. Tất nhiên bạn có thể cập nhật chúng!' data-step ="14">
@@ -121,7 +122,7 @@
             </div>
         </div>
         <div id="list-kpi" data-intro='Dưới đây là danh sách các KPI của bạn. Bạn có thể thêm, sửa, xóa chúng.' data-step ="14">
-            <span class="list-kpi-title high-title">Danh sách KPI</span>
+            <span class="list-kpi-title high-title">Danh sách KPI </span>
             <div id="kpi-list-top" >
                 <div id="kpi-status" data-intro='Luân chuyển giữa 2 trạng thái của danh sách: Tất cả/Đã xóa.' data-step ="15">
                     <div id="kpi_all" class="kpi-status-item kpi-status-active">
@@ -129,6 +130,9 @@
                     </div>
                     <div id="kpi_delete" class="kpi-status-item">
                         <span>Đã xóa</span>
+                    </div>
+                    <div class="add-kpi" data-intro='Thêm các KPI mới của bạn tại đây!' data-step ="21">
+                        <span class="high-title">+ Thêm KPI</span>
                     </div>
                 </div>
                 <div id="kpi-search">
@@ -173,9 +177,9 @@
                 @include('kpi_all')
             </div>
             <div id="bot-list-kpi">
-                <div class="add-kpi" data-intro='Thêm các KPI mới của bạn tại đây!' data-step ="21">
+                {{-- <div class="add-kpi" data-intro='Thêm các KPI mới của bạn tại đây!' data-step ="21">
                     <span class="high-title">+ Thêm KPI</span>
-                </div>
+                </div> --}}
                 <div class="paginate">
                     <div class="pre move"><a href=""><i class="fa-solid fa-angle-left"></i> <span>Previous</span></a></div>
                     <div class="page page-active"><a href="">1</a></div>

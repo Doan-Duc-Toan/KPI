@@ -74,22 +74,29 @@
         display: none;
     }
 
-    .bg-modal {
+    #modal-detail-kpi .bg-modal,
+    #modal-create-kpi .bg-modal{
         align-items: normal;
     }
 
+    #modal-detail-kpi .modal-content,
+    #modal-create-kpi .modal-content {
+        padding: 0 !important;
+    }
 
-    .bg-modal form {
+    #modal-detail-kpi form,
+    #modal-create-kpi form {
         border-radius: 0;
         width: 100%;
         height: 100%;
         overflow-y: scroll;
         box-sizing: border-box;
     }
+
     #manage-content {
-        padding-bottom: 50px !important;
+        padding-bottom: 70px !important;
     }
-    
+
 }
 
 /* Extra small devices (portrait phone, less than 576px) */
@@ -98,9 +105,9 @@
         flex-basis: 100%;
     }
 
-    .btn-create .btn-modal {
+    /* .btn-create .btn-modal {
         padding: 13px 20px;
-    }
+    } */
 
     #bot-list-kpi .add-kpi {
         font-size: 15px;
