@@ -13,7 +13,7 @@
     <link href="https://cdn.jsdelivr.net/npm/intro.js@7.2.0/minified/introjs.min.css" rel="stylesheet">
     <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
     <script src="https://mediafiles.botpress.cloud/6518a8d2-1230-4859-900f-5b05ea216696/webchat/config.js" defer></script>
-    <link rel="icon" href="{{ asset('img/personal-kpi.png') }}" type="image/x-icon">
+    <link rel="icon" href="{{ asset('img/DALL·E-2024-05-30-23.46-Photoroom.png-Photoroom.png') }}" type="image/x-icon">
     <link rel="stylesheet" href="{{ asset('css/respon.css') }}">
     <title>KPI 28</title>
 </head>
@@ -29,7 +29,7 @@
         <div id="header" data-intro='Chào mừng đến với KPI 28. Sau đây tôi sẽ hướng dẫn bạn sử dụng KPI 28 hiệu quả.'
             data-step ="1">
             <div id="logo">
-                <img src="{{ asset('img/personal-kpi.png') }}" alt="">
+                <img src="{{ asset('img/DALL·E-2024-05-30-23.46-Photoroom.png-Photoroom.png') }}" alt="">
                 <span>KPI HTPH</span>
             </div>
             <div id="header-content">
